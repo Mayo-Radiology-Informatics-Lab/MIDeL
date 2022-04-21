@@ -1,0 +1,158 @@
+body {
+    background-color: #234d6f;
+}
+
+a {
+    color: #dddddd;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#nav-bar {
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.nav-item {
+    color: #eeeeee;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#nav-bar-buffer {
+    clear: right;
+    margin-bottom: 100px;
+}
+
+#home-header {
+    color: #eeeeee;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin: auto;
+    width: 700px;
+}
+
+#home-content {
+    color: #eeeeee;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: auto;
+    margin-top: 50px;
+    text-align: justify;
+    width: 700px;
+}
+
+#home-two-column-container {
+    margin: auto;
+    margin-top: 50px;
+    width: 700px;
+}
+
+.home-column-container {
+    display: inline-block;
+    vertical-align: top;
+    width: 340px;
+}
+
+.home-column-title {
+    color: #16b5ff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    vertical-align: top;
+}
+
+.home-column-content {
+    color: #eeeeee;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    width: 300px;
+}
+
+#quickstart-header {
+    color: #eeeeee;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin: auto;
+    width: 1000px;
+}
+
+#quickstart-table-container {
+    margin: auto;
+    margin-top: 50px;
+    width: 1000px;
+}
+
+#quickstart-table tr {
+    height: 60px;
+}
+
+.quickstart-table-th-number {
+    color: #eeeeee;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    vertical-align: top;
+    width: 40px;
+}
+
+.quickstart-table-th-topic {
+    color: #eeeeee;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    vertical-align: top;
+    width: 240px;
+}
+
+.quickstart-table-th-description {
+    color: #eeeeee;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    vertical-align: top;
+    width: 240px;
+}
+
+.quickstart-table-td-number {
+    color: #eeeeee;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: left;
+    vertical-align: top;
+    width: 40px;
+}
+
+.quickstart-table-td-topic {
+    color: #eeeeee;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-right: 30px;
+    text-align: left;
+    vertical-align: top;
+    width: 240px;
+}
+
+.quickstart-table-td-description {
+    color: #16b5ff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-right: 20px;
+    text-align: left;
+    vertical-align: top;
+    width: 240px;
+}
+
