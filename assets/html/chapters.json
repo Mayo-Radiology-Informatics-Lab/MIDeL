@@ -99,8 +99,8 @@
     }],
     [8,"Components of Deep Learning Models",
     {"beginner":{
-        "topic-title":"Coming Soon...",
-        "notebook-link":"#"
+        "topic-title":"Components of Deep Learning Models",
+        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/Section_8_Components_of_Deep_Learning_Models.ipynb"
     },
     "intermediate": {
         "topic-title":"Coming Soon...",
