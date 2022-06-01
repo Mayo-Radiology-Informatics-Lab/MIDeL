@@ -1,0 +1,68 @@
+#chapters .accordion-item {
+    border-radius: 0.5rem !important;
+    border: 1px solid #dee2e6 !important;
+    overflow: hidden;
+    font-weight: normal;
+    --bs-accordion-active-bg: #e1f1f7;
+    --bs-accordion-active-color: #487e93;
+}
+#chapters .accordion-button:not(.collapsed)::after {
+    content: "less";
+    background-image: unset;
+    transform: unset;
+}
+#chapters .accordion-button::after {
+    content: "more";
+    white-space: nowrap;
+    width: auto;
+    bottom: -1.5rem;
+    right: -0.5rem;
+    position: relative;
+    background-image: unset;
+    transition: var(--bs-accordion-btn-icon-transition);
+    font-style: italic;
+    background-color: #487e93;
+    color: #FFF;
+    padding: 2px 4px 2px 4px;
+    border-radius: 4px;
+    line-height: 13px;
+}
+#chapters .theme-container .theme-title .number{
+    font-size: 3.0rem;
+}
+#chapters .theme-container .topic .card{
+    border-radius: 20px;
+}
+#chapters .theme-container .topic .card:hover{
+    box-shadow: 0.25rem .5rem 2rem rgba(0,0,0,.15)!important;
+}
+#chapters .theme-container .topic .level-tag{
+    padding: 3px 12px;
+    font-size: 0.8rem !important;
+    border-radius: 15px;
+    width: auto;
+}
+#chapters .theme-container .topic .level-tag.beginner{
+    background-color: #3AC253;
+}
+#chapters .theme-container .topic .level-tag.intermediate{
+    background-color: #3A67C2;
+}
+#chapters .theme-container .topic .level-tag.advanced{
+    background-color: #C23A3F;
+}
+#chapters .theme-container .topic .link{
+    font-style: italic;
+    color: #E87005;
+    font-size: 0.9rem !important;
+    vertical-align: middle;
+}
+#chapters .theme-container .topic .link.inactive{
+    color: #9A9A9A;
+}
+#chapters .theme-container .topic .link img{
+    width:25px;
+    margin-right: 3px;
+    top:-2px;
+    position: relative;
+}

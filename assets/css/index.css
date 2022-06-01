@@ -1,0 +1,33 @@
+#hero {
+    background: linear-gradient(0deg, #ffffff 0%, #68acc6 100%);
+    background-blend-mode: normal;
+}
+#hero .row{
+    margin: 0 !important;
+    padding-top: 0 !important;
+}
+#hero .img-container{
+    perspective: 500px;
+}
+#hero img {
+    transform: rotateX(0deg) rotateY(0deg);
+    transform-style: preserve-3d;
+}
+#hero:hover img {
+    transform: rotateX(0deg) rotateY(0deg);
+}
+#hero a.btn{
+    background-color: #E3A953;
+    color: #FFF;
+    font-weight: 500;
+    border: none;
+}
+@media (min-width: 768px) {
+    #hero img {
+        transform: rotateX(1deg) rotateY(-10deg);
+        transform-style: preserve-3d;
+    }
+    #hero:hover img {
+        transform: rotateX(0deg) rotateY(-5deg);
+    }
+}
