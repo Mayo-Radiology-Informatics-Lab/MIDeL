@@ -6,11 +6,11 @@
         },
         {
             "question":"Who made this \"book\"?",
-            "answer":"MIDeL is developed by the Mayo Clinic's <a href='https://www.mayo.edu/research/labs/radiology-informatics/overview/' target='_blank'>Radiology Informatics Lab (RIL)</a>."
+            "answer":"MIDeL is developed by the Mayo Clinic's <a href='https://www.mayo.edu/research/labs/radiology-informatics/overview/' target='_blank' class='text-reset'>Radiology Informatics Lab (RIL)</a>."
         },
         {
             "question":"I found an issue with one of the chapters, what should I do?",
-            "answer":"If you find issues in chapter notebooks, please <b>open an issue</b> on our <a href='https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/issues' target='_blank'>GitHub page</a>. Even if you have the solution, we encourage you to <b>submit a pull request</b>."
+            "answer":"If you find issues in chapter notebooks, please <b>open an issue</b> on our <a href='https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/issues' target='_blank' class='text-reset'>GitHub page</a>. Even if you have the solution, we encourage you to <b>submit a pull request</b>."
         }
     ]
 }
