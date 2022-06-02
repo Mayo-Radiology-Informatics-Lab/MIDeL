@@ -2,21 +2,15 @@
     "General Questions":[
         {
             "question":"Are MIDeL chapters free to use?",
-            "answer":"<strong>HTML format can be used!</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Iaculis eu non diam phasellus vestibulum. Maecenas sed enim ut sem viverra aliquet eget. Enim facilisis gravida neque convallis a cras semper. Ornare arcu dui vivamus arcu felis bibendum ut tristique. Eu turpis egestas pretium aenean"
+            "answer":"<strong>Yes!</strong> MIDeL was developed to be used free of charge by all members of the community.  MIDeL is open source and free to use. Contributions are welcomed and encouraged by all memebres of the community."
         },
         {
-            "question":"Who made this book?",
-            "answer":"<strong>HTML format can be used!</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Iaculis eu non diam phasellus vestibulum. Maecenas sed enim ut sem viverra aliquet eget. Enim facilisis gravida neque convallis a cras semper. Ornare arcu dui vivamus arcu felis bibendum ut tristique. Eu turpis egestas pretium aenean"
+            "question":"Who made this \"book\"?",
+            "answer":"MIDeL is developed by the Mayo Clinic's <a href='https://www.mayo.edu/research/labs/radiology-informatics/overview/' target='_blank'>Radiology Informatics Lab (RIL)</a>."
         },
         {
             "question":"I found an issue with one of the chapters, what should I do?",
-            "answer":"<strong>HTML format can be used!</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Iaculis eu non diam phasellus vestibulum. Maecenas sed enim ut sem viverra aliquet eget. Enim facilisis gravida neque convallis a cras semper. Ornare arcu dui vivamus arcu felis bibendum ut tristique. Eu turpis egestas pretium aenean"
-        }
-    ],
-    "Licensing Questions":[
-        {
-            "question":"Are MIDeL chapters free to use?",
-            "answer":"<strong>HTML format can be used!</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Iaculis eu non diam phasellus vestibulum. Maecenas sed enim ut sem viverra aliquet eget. Enim facilisis gravida neque convallis a cras semper. Ornare arcu dui vivamus arcu felis bibendum ut tristique. Eu turpis egestas pretium aenean"
+            "answer":"If you find issues in chapter notebooks, please <b>open an issue</b> on our <a href='https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/issues' target='_blank'>GitHub page</a>. Even if you have the solution, we encourage you to <b>submit a pull request</b>."
         }
     ]
 }
