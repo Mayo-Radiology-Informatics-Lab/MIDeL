@@ -2,7 +2,7 @@
     [1,"Theories of Machine Learning",
     {"beginner":{
         "topic-title":"Introduction to Machine Learning",
-        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/Section_1_Introduction_to_Machine_Learning.ipynb"
+        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/1A.ipynb"
     },
     "intermediate": {
         "topic-title":"Mathematical Principles of Deep Learning",
@@ -30,7 +30,7 @@
     [3,"Theories of Medical Imaging",
     {"beginner":{
         "topic-title":"Introduction to Medical Imaging",
-        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/Section_3_Introduction_to_Medical_Imaging.ipynb"
+        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/3A.ipynb"
     },
     "intermediate": {
         "topic-title":"Coming Soon...",
@@ -44,7 +44,7 @@
     [4,"Computer Science",
     {"beginner":{
         "topic-title":"First Steps to Writing Your First Python Program",
-        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/Section_4_First_Steps_to_Writing_Your_First_Python_Program.ipynb"
+        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/4A.ipynb"
     },
     "intermediate": {
         "topic-title":"Coming Soon...",
@@ -58,7 +58,7 @@
     [5,"Medical Imaging Toolbox",
     {"beginner":{
         "topic-title":"Medical Imaging Toolbox",
-        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/Section_5_Medical_Imaging_Toolbox.ipynb"
+        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/5A.ipynb"
     },
     "intermediate": {
         "topic-title":"Coming Soon...",
@@ -72,7 +72,7 @@
     [6,"Data Preprocessing",
     {"beginner":{
         "topic-title":"Preprocessing",
-        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/Section_6_Preprocessing.ipynb"
+        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/6A.ipynb"
     },
     "intermediate": {
         "topic-title":"Coming Soon...",
@@ -86,7 +86,7 @@
     [7,"Data Handling",
     {"beginner":{
         "topic-title":"Data Handling",
-        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/Section_7_Data_Handling.ipynb"
+        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/7A.ipynb"
     },
     "intermediate": {
         "topic-title":"Coming Soon...",
@@ -100,7 +100,7 @@
     [8,"Components of Deep Learning Models",
     {"beginner":{
         "topic-title":"Components of Deep Learning Models",
-        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/Section_8_Components_of_Deep_Learning_Models.ipynb"
+        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/8A.ipynb"
     },
     "intermediate": {
         "topic-title":"Coming Soon...",
@@ -114,7 +114,7 @@
     [9,"Training Strategy",
     {"beginner":{
         "topic-title":"Training Strategy and Components",
-        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/Section_9_Training_Strategy_and_Components.ipynb"
+        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/9A.ipynb"
     },
     "intermediate": {
         "topic-title":"Coming Soon...",
@@ -142,7 +142,7 @@
     [11,"Inference and Deployment",
     {"beginner":{
         "topic-title":"Inference",
-        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/Section_11_Inference.ipynb"
+        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/11A.ipynb"
     },
     "intermediate": {
         "topic-title":"Coming Soon...",
@@ -184,7 +184,7 @@
     [14,"Multi-Modal Deep Learning Models",
     {"beginner":{
         "topic-title":"Image-Image Multimodality Registration",
-        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/Section_14_Image_Image_multimodality_registration.ipynb"
+        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/14A.ipynb"
     },
     "intermediate": {
         "topic-title":"Coming Soon...",
