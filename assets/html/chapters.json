@@ -169,8 +169,8 @@
     }],
     [13,"Tabular Data",
     {"beginner":{
-        "topic-title":"Coming Soon...",
-        "notebook-link":"#"
+        "topic-title":"Tabular Data",
+        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/13A.ipynb"
     },
     "intermediate": {
         "topic-title":"Coming Soon...",
