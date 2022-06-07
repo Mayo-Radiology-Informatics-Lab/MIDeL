@@ -16,7 +16,7 @@
     [2,"Types of Machine Learning",
     {"beginner":{
         "topic-title":"Introduction to Machine Learning",
-        "notebook-link":"#"
+        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/2A.ipynb"
     },
     "intermediate": {
         "topic-title":"Deep Learning for Object Detection, Segmentation, and Image Generation",
