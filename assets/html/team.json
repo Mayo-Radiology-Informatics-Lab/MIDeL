@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Bradley J. Erickson, MD PhD",
+        "bio": "Brad Erickson was born in Aitkin Minnesota, and did his MD and PhD degrees at Mayo Clinic. He has been on staff as a Neuroradiologist at Mayo and is Director of the AI Lab at Mayo. He enjoys running the lab and the breadth of AI projects in the lab, which allows collaboration across many medical and research specialties. When not at work, he loves Beach volleyball, Bowhunting, and Sailing.",
+        "image": "bje.jpg"
+    },
+    {
+        "name": "Gian marco Conte, MD PhD",
+        "bio": "Dr. Gian Marco Conte is a Research Associate and Assistant Professor of Radiology in the Department of Radiology at Mayo Clinic, Rochester, MN. He obtained his MD and Ph.D. degrees at Vita-Salute San Raffaele University, Milan, Italy. He currently focuses his research on applying machine learning to medical imaging, with a particular interest in neuroimaging and neuro-oncology. In his spare time, he enjoys playing tennis and cooking pizza from scratch.",
+        "image": "jmc.jpg"
+    }
+]
