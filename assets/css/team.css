@@ -1,0 +1,9 @@
+#team .card{
+    border: none;
+}
+#team .card img{
+    border-radius: 10%;
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+}
