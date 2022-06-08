@@ -7,6 +7,78 @@
     {
         "name": "Gian marco Conte, MD PhD",
         "bio": "Dr. Gian Marco Conte is a Research Associate and Assistant Professor of Radiology in the Department of Radiology at Mayo Clinic, Rochester, MN. He obtained his MD and Ph.D. degrees at Vita-Salute San Raffaele University, Milan, Italy. He currently focuses his research on applying machine learning to medical imaging, with a particular interest in neuroimaging and neuro-oncology. In his spare time, he enjoys playing tennis and cooking pizza from scratch.",
-        "image": "jmc.jpg"
+        "image": "gmc.jpg"
+    },
+    {
+        "name": "Yujia (David) Wei, MD PhD",
+        "bio": "Yujia Wei was born in China. He did his M.D. and residency at Tongji Medical College of HUST and Ph.D. degree at Xinqiao Hospital. He has been a Deputy Chief Physician of Neurosurgery in Xinqiao Hospital since 2018. He joined the Mayo Clinic AI lab in 2021 and mainly focuses on applying machine learning to neuroimaging. He enjoys his current work and aims to connect medicine and AI to serve the patient best. On the weekend, he likes hiking with friends and kids, listening to HIFI music, and fixing things, like electronics and vehicles.",
+        "image": "yw.jpg"
+    },
+    {
+        "name": "Pouria Rouzrokh, MD MPH MHPE",
+        "bio": "Pouria Rouzrokh is originally from Iran, where he also earned his medical degree, master of public health, and master of health professions education from the Tehran University of Medical Sciences. Pouria is a self-learned data scientist and has been working at the Mayo Clinic AI lab and the Mayo Clinic Orthopedic Surgery Artificial Intelligence Laboratory (OSAIL) since 2020. His primary interest in data science is image generation with deep learning models. While not coding or studying medicine, Pouria spends his time reading novels, cycling, and most important of all, playing computer games!",
+        "image": "pr.jpg"
+    },
+    {
+        "name": "Jaidip Jagtap, PhD",
+        "bio": "Dr. Jaidip Jagtap received his M.Sc. and Ph.D. degrees in Physics from the University of Pune in 2008 and from IIT Kanpur, India in 2015, respectively. Currently, he is a postdoctoral fellow in Radiology at Mayo Clinic Rochester, working with artificial intelligence to develop models on clinical images (MRI, CT, ultrasound, digital pathology) which could assist pathologist and radiologists in better understanding the diseases. Dr. Jagtap also bring the experience from his prior work in small animal contrast enhanced imaging and developing computational models to analyze the altered vascular/lymphatic functions due to the impact from tumor mincroenvironment and X-ray irradiation. Once afraid from theory and programming, he is currently enjoying the journey with AI.",
+        "image": "jj.jpg"
+    },
+    {
+        "name": "Joseph (Joe) Sobek, MS",
+        "bio": "Joe Sobek grew up in Stewartville, Minnesota and earned his M.S. in physics from the University of Minnesota. Joe has been working in the Mayo Clinic AI lab since 2020. His research interests are in computer vision and neural network design. In his spare time, Joe enjoys playing computer games, watching nature documentaries, and backyard permaculture.",
+        "image": "js.jpg"
+    },
+    {
+        "name": "Yashbir (Yash) Singh, PhD",
+        "bio": "Dr. Singh was born and raised in India. He completed his Doctorate in Biomedical engineering in Taiwan and he finished his DAAD fellowship in Germany as a biomedical engineer. He likes to explore cutting-edge research in medical science. He enjoys traveling, expanding his knowledge about different cultures, and tasting new food and drinks.",
+        "image": "ys.jpg"
+    },
+    {
+        "name": "Sanaz (Shanli) Vahdati, MD",
+        "bio": "Sanaz Vahdati was born and raised in Iran where she received her medical doctorate degree from Guilan University of Medical Sciences. She is currently a postdoc fellow at Radiology Informatics Lab (RIL) at Mayo Clinic, Rochester, MN. Her research interest lies in the implementation of deep learning schemes in medical imaging. In her spare time, you may find her running in the field or spending time with close knits.",
+        "image": "sv.jpg"
+    },
+    {
+        "name": "Shahriar Faghani, MD MS",
+        "bio": "Shahriar Faghani comes from Iran. Graduated from Tehran University of Medical Sciences and the University of Tehran with an MD and a Bachelor's of Mathematics respectively. Currently, he is applying deep learning to solving neuroradiology, musculoskeletal, and digital pathology challenges. His research interest lies in uncertainty quantification in deep learning algorithms. During his spare time, he practices martial arts.",
+        "image": "sf.jpg"
+    },
+    {
+        "name": "Diana V. Vera-Garcia, MD",
+        "bio": "Dr. Diana V. Vera-Garcia is a Research Fellow in the Mayo Clinic's Department of Radiology in Rochester, Minnesota. She earned her medical degree at Nuevo Leon, Mexico. Currently, her research focuses on applying machine learning to medical imaging, and she has been contributing to the Orthopaedics department for a year. When she is not learning Al, Dr. Vera loves to cook and exploring new cuisines.",
+        "image": "dvvg.jpg"
+    },
+    {
+        "name": "Bardia Khosravi, MD MPH MHPE",
+        "bio": "Bardia Khosravi is a MD, with two masters in medical education (MHPE) and public health (MPH), from Tehran University of Medical Sciences (TUMS). He has been a full stack developer since he was 19. Since the pandemic, he started focusing his programming skills towards deep learning as way of helping those suffering with the disease, through early diagnosis and efficient triage. He started his research at RIL in 2021, and has been working on complications' risk prediction in orthopedic patients, and other generative tasks. Bardia's main hobby is cooking, especially italian food, with some persian touch!",
+        "image": "bk.jpg"
+    },
+    {
+        "name": "Shiba Kuanar, MD",
+        "bio": "Shiba Kuanar is originally from India and did his Ph.D. degree in Electrical Engineering from The University of Texas at Arlington. He has been a researcher at the Department of Radiology, Mayo, and his research interest at the Artificial Intelligence (AI) Lab, includes designing deep learning pipelines with a focus on machine learning, and probability modelling. In recent years, Shiba worked on prostate cancer detection using multi-parametric MRI, and Histology image analysis for cell detection.",
+        "image": "spk.jpg"
+    },
+    {
+        "name": "Moein Rassoulinejad-Mousavi, MD",
+        "bio": "Moein Rassoulinejad-Mousavi was born in Ahvaz, Iran, and did his PhD degree in Mechanical Engineering at the University of Missouri-Columbia . Moein is interested in combining his engineering background with artificial intelligence to help patients having a better life in future. He enjoys playing volleyball and badminton in his free time.",
+        "image": "smrm.jpg"
+    },
+    {
+        "name": "Mana Moassefi, MD",
+        "bio": "Mana Moassefi was born and raised in Tehran, Iran. She graduated as a medical doctor from Tehran University of Medical Sciences. She now works in the artificial intelligence (AI) lab at the Mayo Clinic. In her research, she's using deep learning to predict glioblastoma's prognosis and survival. Outside of work, she enjoys reading and working out.",
+        "image": "mm.jpg"
+    },
+    {
+        "_comment": "should go before Jai",
+        "name": "Kuan (Kevin) Zhang, PhD",
+        "bio": "Kuan (Kevin) Zhang received his bachelor’s degree in physics from University of Science and Technology of China (USTC). He holds a dual European Erasmus MSc in computational modeling from Swansea University in UK and UPC-Barcelona Tech in Spain, where he continued to obtain his PhD degree in applied mathematics. His research interests focus on mathematical modeling, AI, and clinical research. Working at Mayo AI Lab, he is interested in radiological imaging analysis including super-resolution in cross domain to enhance image reconstruction, segmentation, and detection for automatic diagnosis, and time-series forecasting to predict disease progression. Meanwhile, he is a Diagnostic Medical Physics resident in the Department of Radiology at Mayo Clinic. He teaches undergraduate and graduate courses in modeling and medical imaging AI. He serves as Deputy Editor of Radiology In Training. When not at work, Kevin’s favorite sports are tennis, basketball, and skiing.",
+        "image": "blank.jpg"
+    },
+    {
+        "_comment": "should go before Mana",
+        "name": "Fred Nugen, PhD",
+        "bio": "Fred Nugen is a data science leader specializing in building long-term collaborations between physicians and engineers.  Currently, he is designing predictive AI models for prostate cancer at Mayo Clinic, to help catch the disease early.  He earned a Master of Science from Stanford and PhD from The University of Texas at Austin, both in Mechanical Engineering.  Fred also leads data science projects at UC Berkeley in the Division of Computing, Data Science, and Society.",
+        "image": "blank.jpg"
     }
 ]
