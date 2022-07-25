@@ -22,17 +22,26 @@ $(document).ready(function(){
                         <div class="d-flex fs-5 mb-4">
                             ${theme[2][level]["topic-title"]}
                         </div>`
-                    
-                if (theme[2][level]["notebook-link"] == "#"){
-                    theme_html += `<div class="d-flex flex-row-reverse fs-5 mb-0 link inactive">
-                        <a href="#!" class="text-reset">Coming Soon...</a>
-                    </div>`
-                } else {
-                    theme_html += `<div class="d-flex flex-row-reverse fs-5 mb-0 link">
-                        <a href="${theme[2][level]["notebook-link"].replace("github.com","githubtocolab.com")}" target="_blank" class="text-reset"><img src="./assets/icons/colab-icon.png" class="d-inline-block">Go to Notebook</a>
+                
+                if ("notebook-link" in theme[2][level]){
+                    if (theme[2][level]["notebook-link"] == "#"){
+                        theme_html += `<div class="d-flex flex-row-reverse fs-5 mb-0 link inactive">
+                            <a href="#!" class="text-reset">Coming Soon...</a>
+                        </div>`
+                    } else {
+                        theme_html += `<div class="d-flex flex-row-reverse fs-5 mb-0 link colab">
+                            <a href="${theme[2][level]["notebook-link"].replace("github.com","githubtocolab.com")}" target="_blank" class="text-reset"><img src="./assets/icons/colab-icon.png" class="d-inline-block">Go to Notebook</a>
+                        </div>`
+                    }   
+                }
+
+                if ("youtube-link" in theme[2][level] && theme[2][level]["youtube-link"] != "#"){
+                    theme_html += `<div class="d-flex flex-row-reverse fs-5 mb-0 link youtube">
+                        <a href="${theme[2][level]["youtube-link"]}" target="_blank" class="text-reset"><img src="./assets/icons/youtube-icon.png" class="d-inline-block">Watch the Video</a>
                     </div>`
                 }
-                theme_html += `</div>  
+
+                theme_html += `</div>
                 </div>`
             }
             theme_html += `</div>
