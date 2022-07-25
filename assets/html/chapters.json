@@ -194,5 +194,12 @@
         "topic-title":"Coming Soon...",
         "notebook-link":"#"
     }
+    }],
+    [15,"Generative Models",
+    {
+    "intermediate": {
+        "topic-title":"Intorduction to Diffusion Models (DDPMs)",
+        "youtube-link":"https://www.youtube.com/watch?v=oOUg31cN_QU"
+    }
     }]
 ]

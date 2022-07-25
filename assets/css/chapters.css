@@ -53,9 +53,14 @@
 }
 #chapters .theme-container .topic .link{
     font-style: italic;
-    color: #E87005;
     font-size: 0.9rem !important;
     vertical-align: middle;
+}
+#chapters .theme-container .topic .link.colab{
+    color: #E87005;
+}
+#chapters .theme-container .topic .link.youtube{
+    color: #e82305;
 }
 #chapters .theme-container .topic .link.inactive{
     color: #9A9A9A;
