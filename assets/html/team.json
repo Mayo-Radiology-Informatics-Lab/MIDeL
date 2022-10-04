@@ -20,6 +20,11 @@
         "image": "pr.jpg"
     },
     {
+        "name": "Kuan (Kevin) Zhang, PhD",
+        "bio": "Kuan (Kevin) Zhang is an Assistant Professor of Radiology and Diagnostic Medical Physics resident in the Department of Radiology at Mayo Clinic. Dr. Zhang received his bachelor’s degree in Physics from the University of Science and Technology of China (USTC). He holds a dual European Erasmus MSc in computational modeling from Swansea University in UK and UPC-Barcelona Tech in Spain, where he continued to obtain PhD in Applied Mathematics. His research interests focus on mathematical modeling, AI, and radiological imaging research. He teaches undergraduate and graduate courses in modeling and medical imaging AI. He serves as Deputy Editor of Radiology In Training. When not at work, Kevin’s favorite sports are tennis, basketball, and skiing.",
+        "image": "kz.jpg"
+    },
+    {
         "name": "Jaidip Jagtap, PhD",
         "bio": "Dr. Jaidip Jagtap received his M.Sc. and Ph.D. degrees in Physics from the University of Pune in 2008 and from IIT Kanpur, India in 2015, respectively. Currently, he is a postdoctoral fellow in Radiology at Mayo Clinic Rochester, working with artificial intelligence to develop models on clinical images (MRI, CT, ultrasound, digital pathology) which could assist pathologist and radiologists in better understanding the diseases. Dr. Jagtap also bring the experience from his prior work in small animal contrast enhanced imaging and developing computational models to analyze the altered vascular/lymphatic functions due to the impact from tumor mincroenvironment and X-ray irradiation. Once afraid from theory and programming, he is currently enjoying the journey with AI.",
         "image": "jj.jpg"
@@ -68,12 +73,6 @@
         "name": "Mana Moassefi, MD",
         "bio": "Mana Moassefi was born and raised in Tehran, Iran. She graduated as a medical doctor from Tehran University of Medical Sciences. She now works in the artificial intelligence (AI) lab at the Mayo Clinic. In her research, she's using deep learning to predict glioblastoma's prognosis and survival. Outside of work, she enjoys reading and working out.",
         "image": "mm.jpg"
-    },
-    {
-        "_comment": "should go before Jai",
-        "name": "Kuan (Kevin) Zhang, PhD",
-        "bio": "Kuan (Kevin) Zhang received his bachelor’s degree in physics from University of Science and Technology of China (USTC). He holds a dual European Erasmus MSc in computational modeling from Swansea University in UK and UPC-Barcelona Tech in Spain, where he continued to obtain his PhD degree in applied mathematics. His research interests focus on mathematical modeling, AI, and clinical research. Working at Mayo AI Lab, he is interested in radiological imaging analysis including super-resolution in cross domain to enhance image reconstruction, segmentation, and detection for automatic diagnosis, and time-series forecasting to predict disease progression. Meanwhile, he is a Diagnostic Medical Physics resident in the Department of Radiology at Mayo Clinic. He teaches undergraduate and graduate courses in modeling and medical imaging AI. He serves as Deputy Editor of Radiology In Training. When not at work, Kevin’s favorite sports are tennis, basketball, and skiing.",
-        "image": "blank.jpg"
     },
     {
         "_comment": "should go before Mana",
