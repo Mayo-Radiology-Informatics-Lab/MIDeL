@@ -13,31 +13,32 @@ $(document).ready(function(){
                 </h2>
                 <div id="chapters_collapse${i}" class="accordion-collapse collapse" aria-labelledby="chapters_heading${i}">
                     <div class='row p-2'>`
-            for (level in theme[2]){
+            for (let j=0; j < theme[2].length; j++){
+                level_item = theme[2][j]
                 theme_html += `<div class="col-12 col-md-4 topic mb-3 mb-md-0 d-flex align-items-stretch" style="max-width:400px">
                     <div class="card shadow-sm p-3 flex-column">
                         <div class="d-flex">
-                            <div class="level-tag ${level} text-capitalize mb-2 fw-bold text-white">${level}</div><br>
+                            <div class="level-tag ${level_item['level']} text-capitalize mb-2 fw-bold text-white">${level_item['level']}</div><br>
                         </div>
                         <div class="d-flex fs-5 mb-4">
-                            ${theme[2][level]["topic-title"]}
+                            ${level_item["topic-title"]}
                         </div>`
                 
-                if ("notebook-link" in theme[2][level]){
-                    if (theme[2][level]["notebook-link"] == "#"){
+                if ("notebook-link" in level_item){
+                    if (level_item["notebook-link"] == "#"){
                         theme_html += `<div class="d-flex flex-row-reverse fs-5 mb-0 link inactive">
                             <a href="#!" class="text-reset">Coming Soon...</a>
                         </div>`
                     } else {
                         theme_html += `<div class="d-flex flex-row-reverse fs-5 mb-0 link colab">
-                            <a href="${theme[2][level]["notebook-link"].replace("github.com","githubtocolab.com")}" target="_blank" class="text-reset"><img src="./assets/icons/colab-icon.png" class="d-inline-block">Go to Notebook</a>
+                            <a href="${level_item["notebook-link"].replace("github.com","githubtocolab.com")}" target="_blank" class="text-reset"><img src="./assets/icons/colab-icon.png" class="d-inline-block">Go to Notebook</a>
                         </div>`
                     }   
                 }
 
-                if ("youtube-link" in theme[2][level] && theme[2][level]["youtube-link"] != "#"){
+                if ("youtube-link" in level_item && level_item["youtube-link"] != "#"){
                     theme_html += `<div class="d-flex flex-row-reverse fs-5 mb-0 link youtube">
-                        <a href="${theme[2][level]["youtube-link"]}" target="_blank" class="text-reset"><img src="./assets/icons/youtube-icon.png" class="d-inline-block">Watch the Video</a>
+                        <a href="${level_item["youtube-link"]}" target="_blank" class="text-reset"><img src="./assets/icons/youtube-icon.png" class="d-inline-block">Watch the Video</a>
                     </div>`
                 }
 
