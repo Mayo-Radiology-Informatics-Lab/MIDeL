@@ -1,205 +1,252 @@
 [
-    [1,"Theories of Machine Learning",
-    {"beginner":{
+    [1,"Theories of Machine Learning", [
+    {
+        "level": "beginner",
         "topic-title":"Introduction to Machine Learning",
         "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/1A.ipynb"
     },
-    "intermediate": {
+    {
+        "level": "intermediate",
         "topic-title":"Mathematical Principles of Deep Learning",
         "notebook-link":"#"
     },
-    "advanced":{
+    {
+        "level": "advanced",
         "topic-title":"Ethics of Machine Learning",
         "notebook-link":"#"
     }
-    }],
-    [2,"Types of Machine Learning",
-    {"beginner":{
+    ]],
+    [2,"Types of Machine Learning", [
+    {
+        "level": "beginner",
         "topic-title":"Introduction to Machine Learning",
         "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/2A.ipynb"
     },
-    "intermediate": {
+    {
+        "level": "intermediate",
         "topic-title":"Deep Learning for Object Detection, Segmentation, and Image Generation",
         "notebook-link":"#"
     },
-    "advanced":{
+    {
+        "level": "advanced",
         "topic-title":"History and philosophy of machine learning",
         "notebook-link":"#"
     }
-    }],
-    [3,"Theories of Medical Imaging",
-    {"beginner":{
+    ]],
+    [3,"Theories of Medical Imaging", [
+    {
+        "level": "beginner",
         "topic-title":"Introduction to Medical Imaging",
         "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/3A.ipynb"
     },
-    "intermediate": {
+    {
+        "level": "intermediate",
         "topic-title":"Coming Soon...",
         "notebook-link":"#"
     },
-    "advanced":{
+    {
+        "level": "advanced",
         "topic-title":"Coming Soon...",
         "notebook-link":"#"
     }
-    }],
-    [4,"Computer Science",
-    {"beginner":{
+    ]],
+    [4,"Computer Science", [
+    {
+        "level": "beginner",
         "topic-title":"First Steps to Writing Your First Python Program",
         "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/4A.ipynb"
     },
-    "intermediate": {
+    {
+        "level": "intermediate",
         "topic-title":"Coming Soon...",
         "notebook-link":"#"
     },
-    "advanced":{
+    {
+        "level": "advanced",
         "topic-title":"Coming Soon...",
         "notebook-link":"#"
     }
-    }],
-    [5,"Medical Imaging Toolbox",
-    {"beginner":{
+    ]],
+    [5,"Medical Imaging Toolbox", [
+    {
+        "level": "beginner",
         "topic-title":"Medical Imaging Toolbox",
         "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/5A.ipynb"
     },
-    "intermediate": {
+    {
+        "level": "intermediate",
         "topic-title":"Coming Soon...",
         "notebook-link":"#"
     },
-    "advanced":{
+    {
+        "level": "advanced",
         "topic-title":"Coming Soon...",
         "notebook-link":"#"
     }
-    }],
-    [6,"Data Preprocessing",
-    {"beginner":{
+    ]],
+    [6,"Data Preprocessing", [
+    {
+        "level": "beginner",
         "topic-title":"Preprocessing",
         "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/6A.ipynb"
     },
-    "intermediate": {
+    {
+        "level": "intermediate",
         "topic-title":"Coming Soon...",
         "notebook-link":"#"
     },
-    "advanced":{
+    {
+        "level": "advanced",
         "topic-title":"Coming Soon...",
         "notebook-link":"#"
     }
-    }],
-    [7,"Data Handling",
-    {"beginner":{
+    ]],
+    [7,"Data Handling", [
+    {
+        "level": "beginner",
         "topic-title":"Data Handling",
         "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/7A.ipynb"
     },
-    "intermediate": {
+    {
+        "level": "intermediate",
         "topic-title":"Coming Soon...",
         "notebook-link":"#"
     },
-    "advanced":{
+    {
+        "level": "advanced",
         "topic-title":"Coming Soon...",
         "notebook-link":"#"
     }
-    }],
-    [8,"Components of Deep Learning Models",
-    {"beginner":{
+    ]],
+    [8,"Components of Deep Learning Models", [
+    {
+        "level": "beginner",
         "topic-title":"Components of Deep Learning Models",
         "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/8A.ipynb"
     },
-    "intermediate": {
+    {
+        "level": "intermediate",
         "topic-title":"Coming Soon...",
         "notebook-link":"#"
     },
-    "advanced":{
+    {
+        "level": "advanced",
         "topic-title":"Coming Soon...",
         "notebook-link":"#"
     }
-    }],
-    [9,"Training Strategy",
-    {"beginner":{
+    ]],
+    [9,"Training Strategy", [
+    {
+        "level": "beginner",
         "topic-title":"Training Strategy and Components",
         "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/9A.ipynb"
     },
-    "intermediate": {
+    {
+        "level": "intermediate",
         "topic-title":"Coming Soon...",
         "notebook-link":"#"
     },
-    "advanced":{
+    {
+        "level": "advanced",
         "topic-title":"Coming Soon...",
         "notebook-link":"#"
     }
-    }],
-    [10,"Training Evaluation",
-    {"beginner":{
+    ]],
+    [10,"Training Evaluation", [
+    {
+        "level": "beginner",
         "topic-title":"Coming Soon...",
         "notebook-link":"#"
     },
-    "intermediate": {
+    {
+        "level": "intermediate",
         "topic-title":"Coming Soon...",
         "notebook-link":"#"
     },
-    "advanced":{
+    {
+        "level": "advanced",
         "topic-title":"Coming Soon...",
         "notebook-link":"#"
     }
-    }],
-    [11,"Inference and Deployment",
-    {"beginner":{
+    ]],
+    [11,"Inference and Deployment", [
+    {
+        "level": "beginner",
         "topic-title":"Inference",
         "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/11A.ipynb"
     },
-    "intermediate": {
+    {
+        "level": "intermediate",
         "topic-title":"Coming Soon...",
         "notebook-link":"#"
     },
-    "advanced":{
+    {
+        "level": "advanced",
         "topic-title":"Coming Soon...",
         "notebook-link":"#"
     }
-    }],
-    [12,"Text Data (Natural Language Processing)",
-    {"beginner":{
+    ]],
+    [12,"Text Data (Natural Language Processing)", [
+    {
+        "level": "beginner",
         "topic-title":"Coming Soon...",
         "notebook-link":"#"
     },
-    "intermediate": {
+    {
+        "level": "intermediate",
         "topic-title":"Coming Soon...",
         "notebook-link":"#"
     },
-    "advanced":{
+    {
+        "level": "advanced",
         "topic-title":"Coming Soon...",
         "notebook-link":"#"
     }
-    }],
-    [13,"Tabular Data",
-    {"beginner":{
+    ]],
+    [13,"Tabular Data", [
+    {
+        "level": "beginner",
         "topic-title":"Tabular Data",
         "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/13A.ipynb"
     },
-    "intermediate": {
+    {
+        "level": "intermediate",
         "topic-title":"Coming Soon...",
         "notebook-link":"#"
     },
-    "advanced":{
+    {
+        "level": "advanced",
         "topic-title":"Coming Soon...",
         "notebook-link":"#"
     }
-    }],
-    [14,"Multi-Modal Deep Learning Models",
-    {"beginner":{
+    ]],
+    [14,"Multi-Modal Deep Learning Models", [
+    {
+        "level": "beginner",
         "topic-title":"Image-Image Multimodality Registration",
         "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/14A.ipynb"
     },
-    "intermediate": {
+    {
+        "level": "intermediate",
         "topic-title":"Coming Soon...",
         "notebook-link":"#"
     },
-    "advanced":{
+    {
+        "level": "advanced",
         "topic-title":"Coming Soon...",
         "notebook-link":"#"
     }
-    }],
-    [15,"Generative Models",
+    ]],
+    [15,"Special Deep Learning Models in Medical Imaging", [
     {
-    "intermediate": {
+        "level": "intermediate",
         "topic-title":"Intorduction to Diffusion Models (DDPMs)",
         "youtube-link":"https://www.youtube.com/watch?v=oOUg31cN_QU"
+    },
+    {
+        "level": "intermediate",
+        "topic-title":"Automatic Semantic Segmentation by nnU-Net",
+        "youtube-link":"https://youtube.com/playlist?list=PL9PiM3CgUHybJBPq_MAcAzzFEWHTE8XjQ"
     }
-    }]
+    ]]
 ]
