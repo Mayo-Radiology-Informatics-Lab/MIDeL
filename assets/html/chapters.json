@@ -194,8 +194,8 @@
     },
     {
         "level": "intermediate",
-        "topic-title":"Coming Soon...",
-        "notebook-link":"#"
+        "topic-title":"RNN, LSTM",
+        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/12B.ipynb"
     },
     {
         "level": "advanced",
