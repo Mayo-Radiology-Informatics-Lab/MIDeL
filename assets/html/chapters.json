@@ -216,8 +216,8 @@
     },
     {
         "level": "advanced",
-        "topic-title":"Coming Soon...",
-        "notebook-link":"#"
+        "topic-title":"Decision Tree Classification Algorithm",
+        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/13C.ipynb"
     }
     ]],
     [14,"Multi-Modal Deep Learning Models", [
