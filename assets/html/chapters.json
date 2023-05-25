@@ -240,13 +240,18 @@
     [15,"Special Deep Learning Models in Medical Imaging", [
     {
         "level": "intermediate",
-        "topic-title":"Intorduction to Diffusion Models (DDPMs)",
+        "topic-title":"Introduction to Diffusion Models (DDPMs)",
         "youtube-link":"https://www.youtube.com/watch?v=oOUg31cN_QU"
     },
     {
         "level": "intermediate",
         "topic-title":"Automatic Semantic Segmentation by nnU-Net",
         "youtube-link":"https://youtube.com/playlist?list=PL9PiM3CgUHybJBPq_MAcAzzFEWHTE8XjQ"
+    },
+    {
+        "level": "intermediate",
+        "topic-title":"Semantic Segmentation: A 2D Medical Image Segmentation with PyTorch and MONAI",
+        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/15B.ipynb"
     }
     ]]
 ]
