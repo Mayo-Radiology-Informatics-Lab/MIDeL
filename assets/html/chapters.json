@@ -126,8 +126,8 @@
     },
     {
         "level": "intermediate",
-        "topic-title":"Coming Soon...",
-        "notebook-link":"#"
+        "topic-title":"Components of Deep Learning Models",
+        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/8B.ipynb"
     },
     {
         "level": "advanced",
