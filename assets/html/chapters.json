@@ -58,8 +58,8 @@
     },
     {
         "level": "intermediate",
-        "topic-title":"Coming Soon...",
-        "notebook-link":"#"
+        "topic-title":"Visual Data Processing",
+        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/4B.ipynb"
     },
     {
         "level": "advanced",
