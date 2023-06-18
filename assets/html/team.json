@@ -75,7 +75,11 @@
         "image": "mm.jpg"
     },
     {
-        "_comment": "should go before Mana",
+        "name": "Elham Mahmoudi, MD MPH",
+        "bio": "Elham is born and raised in Iran, where she got her MD and MPH degrees and became a general Cardiologist. Her profound interest in deep learning along with her clinical background, attracted her to the developing field of medical imaging. As a self-taught learner of python programming, machine learning and deep learning, she is now pursuing her passion at Mayo Clinic AI lab. Her primary focus is to apply object detection models to available inexpensive imaging methods like electrocardiography and chest CT scans with purpose of early prediction of cardiovascular events. Besides her career, she mostly enjoys solving puzzles, creating art crafts and reading autobiography books.",
+        "image": "em.jpg"
+    },
+    {
         "name": "Fred Nugen, PhD",
         "bio": "Fred Nugen is a data science leader specializing in building long-term collaborations between physicians and engineers.  Currently, he is designing predictive AI models for prostate cancer at Mayo Clinic, to help catch the disease early.  He earned a Master of Science from Stanford and PhD from The University of Texas at Austin, both in Mechanical Engineering.  Fred also leads data science projects at UC Berkeley in the Division of Computing, Data Science, and Society.",
         "image": "blank.jpg"
