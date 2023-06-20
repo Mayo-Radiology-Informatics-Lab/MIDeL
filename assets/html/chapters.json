@@ -252,6 +252,11 @@
         "level": "intermediate",
         "topic-title":"Semantic Segmentation: A 2D Medical Image Segmentation with PyTorch and MONAI",
         "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/15B.ipynb"
+    },
+    {
+        "level": "intermediate",
+        "topic-title":"Deep Learning for Medical Image Generation",
+        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/15_2B.ipynb"
     }
     ]],
     [16,"Uncertainty Quantification", [
