@@ -265,5 +265,12 @@
         "topic-title":"Uncertainty Quantification",
         "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/16A.ipynb"
     }
+    ]],
+    [17,"Large Language Models", [
+        {
+            "level": "intermediate",
+            "topic-title":"Retrieval Augmented Generation (RAG)",
+            "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/17A.ipynb"
+        }
     ]]
 ]
