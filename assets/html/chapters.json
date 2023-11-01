@@ -41,8 +41,8 @@
     },
     {
         "level": "intermediate",
-        "topic-title":"Coming Soon...",
-        "notebook-link":"#"
+        "topic-title":"DICOM, HL7, and FHIR",
+        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/3B.ipynb"
     },
     {
         "level": "advanced",
