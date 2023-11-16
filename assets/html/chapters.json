@@ -260,7 +260,7 @@
     },
     {
         "level": "intermediate",
-        "topic-title":"Diffusion Model for Image Generation",
+        "topic-title":"Diffusion Models for Image Generation",
         "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/15_3B.ipynb"
     }
     ]],
