@@ -75,6 +75,11 @@
         "image": "mm.jpg"
     },
     {
+        "name": "Ali Ganjizadeh, MD",
+        "bio": "Ali, a medical graduate from Iran, is passionate about interventional radiology and artificial intelligence. He has a remarkable track record in research, imaging, computer-assisted diagnosis, business, and industry. He also has a wealth of experience in clinical practice and medical education. He founded several startups and received the Innovation in Teaching award from AMEE. Ali taught himself programming and has been a postdoctoral scholar at Mayo AI Lab since 2022. He is a contributing member of SIIM and IHE, where he is involved in developing new standards for the healthcare industry. Ali loves cycling and playing boardgames!",
+        "image": "ag.jpg"
+    },
+    {
         "name": "Elham Mahmoudi, MD MPH",
         "bio": "Elham is born and raised in Iran, where she got her MD and MPH degrees and became a general Cardiologist. Her profound interest in deep learning along with her clinical background, attracted her to the developing field of medical imaging. As a self-taught learner of python programming, machine learning and deep learning, she is now pursuing her passion at Mayo Clinic AI lab. Her primary focus is to apply object detection models to available inexpensive imaging methods like electrocardiography and chest CT scans with purpose of early prediction of cardiovascular events. Besides her career, she mostly enjoys solving puzzles, creating art crafts and reading autobiography books.",
         "image": "em.jpg"
