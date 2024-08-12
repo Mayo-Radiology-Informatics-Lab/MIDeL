@@ -276,6 +276,11 @@
             "level": "intermediate",
             "topic-title":"Retrieval Augmented Generation (RAG)",
             "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/17A.ipynb"
+        },
+        {
+            "level": "intermediate",
+            "topic-title":"Obtaining Consistent LLM Outputs by using Pydantic Models",
+            "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/17B.ipynb"
         }
     ]]
 ]
