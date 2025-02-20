@@ -282,5 +282,12 @@
             "topic-title":"Obtaining Consistent LLM Outputs by using Pydantic Models",
             "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/17B.ipynb"
         }
+    ]],
+    [18,"Active Learning", [
+        {
+            "level": "intermediate",
+            "topic-title":"Active Learning with the GraNd Sampling Method",
+            "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/18A.ipynb"
+        }
     ]]
 ]
