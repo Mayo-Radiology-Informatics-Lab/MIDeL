@@ -131,6 +131,11 @@
     },
     {
         "level": "advanced",
+        "topic-title":"Focal Loss",
+        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/8C.ipynb"
+    },
+    {
+        "level": "advanced",
         "topic-title":"Coming Soon...",
         "notebook-link":"#"
     }
