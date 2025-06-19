@@ -1,0 +1,59 @@
+"text/html; charset=utf-8">
+<script language=JavaScript type="text/javascript">
+var timerStart = Date.now();
+var pageName = "";
+
+if (pageName == "") {
+	pageName = "Auto Article Locator";
+} 
+	function autoRedirectToURL() {
+		var url = '/retrieve/'+document.getElementById('resultName').value+'?Redirect='+document.getElementById('redirectURL').value+'&key='+document.getElementById('key').value
+	  window.location = url;
+	}
+	
+</script>
+</head>
+<body onload="autoRedirectToURL();">
+	<tr style="display:none;">
+  <td colspan="2">
+<input type="hidden" name="redirectURL" value="https%3A%2F%2Fwww.clinicalkey.com%2Fcontent%2FplayBy%2Fpii%2F%3Fv%3DS2352344124001882%26returnurl%3Dhttps%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2352344124001882%3Fshowall%3Dtrue%26referrer%3Dhttps%253A%252F%252Flinkinghub.elsevier.com%252Fretrieve%252Fpii%252FS2352344124001882" id="redirectURL"/>  </td>
+</tr>
+ 
+	<tr style="display:none;">
+  <td colspan="2">
+<input type="hidden" name="key" value="95a9f445d7a331e3cf460ec054da5c333f3025b4" id="key"/>  </td>
+</tr>
+
+    <tr style="display:none;">
+  <td colspan="2">
+<input type="hidden" name="id" value="S2352344124001882" id="id"/>  </td>
+</tr>
+ 
+	<tr style="display:none;">
+  <td colspan="2">
+<input type="hidden" name="resultName" value="articleSelectPrefsTemp" id="resultName"/>  </td>
+</tr>
+
+</body>
+<script>
+
+		siteCatalyst.pageDataLoad({
+			     businessUnit : 'ELS:RP:ST',
+			     environment : 'prod',
+			     language : 'en',
+			     loadTime : (Date.now() - timerStart).toString(),
+			     loadTimestamp : Date.now().toString(),
+			     name : pageName,
+			     productName : 'IH',
+			     type : 'ih:article',        
+			     detail : 'clinicalkeycom%2Fcontent%2FplayBy%2Fpii%2F%3Fv%3DS2352344124001882%26returnurl%3Dhttps%3A%2F%2Flinkinghubelseviercom%2Fretrieve%2Fpii%2FS2352344124001882%3Fshowall%3Dtrue%26referrer%3Dhttps%253A%252F%252Flinkinghubelsevier',
+			     format :"MIME-XHTML",
+			     accessType : 'ih:anon_guest',
+			     ipAddress : '129.176.197.230',
+			     identifierType : 'PII',
+                 identifierValue : 'S2352344124001882',
+			     articleName : 'Analyzing Racial Differences in Imaging Joint Replacement Registries Using Generative Artificial Intelligence: Advancing Orthopaedic Data Equity',
+			     location : "Linking Hub"
+		});
+	</script>
+</html>

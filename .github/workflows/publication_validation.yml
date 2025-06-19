@@ -1,0 +1,216 @@
+name: Publication Validation
+
+on:
+  pull_request:
+    paths:
+      - 'assets/html/publications.json'
+  push:
+    paths:
+      - 'assets/html/publications.json'
+
+jobs:
+  validate-publications:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+        
+    - name: Install dependencies
+      run: |
+        npm install -g ajv-cli
+        
+    - name: Create JSON Schema
+      run: |
+        cat > publication_schema.json << 'EOF'
+        {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "year": {
+                "oneOf": [
+                  {"type": "integer", "minimum": 1990, "maximum": 2030},
+                  {"type": "string", "enum": ["older"]}
+                ]
+              },
+              "publications": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {"type": "string", "pattern": "^[a-z0-9_]+$"},
+                    "title": {"type": "string", "minLength": 5},
+                    "url": {"type": "string", "format": "uri"},
+                    "type": {"type": "string", "enum": ["journal", "conference", "book", "preprint", "other"]},
+                    "status": {"type": "string", "enum": ["published", "in_press", "accepted", "in_process", "submitted"]},
+                    "authors": {"type": "string"},
+                    "journal": {"type": "string"},
+                    "abstract": {"type": "string"},
+                    "keywords": {"type": "array", "items": {"type": "string"}},
+                    "doi": {"type": "string"}
+                  },
+                  "required": ["id", "title", "url", "type", "status"],
+                  "additionalProperties": false
+                }
+              }
+            },
+            "required": ["year", "publications"],
+            "additionalProperties": false
+          }
+        }
+        EOF
+        
+    - name: Validate JSON Schema
+      run: |
+        ajv validate -s publication_schema.json -d assets/html/publications.json
+        
+    - name: Check for duplicate IDs
+      run: |
+        node -e "
+        const fs = require('fs');
+        const data = JSON.parse(fs.readFileSync('assets/html/publications.json', 'utf8'));
+        const ids = [];
+        let duplicates = [];
+        
+        data.forEach(yearGroup => {
+          yearGroup.publications.forEach(pub => {
+            if (ids.includes(pub.id)) {
+              duplicates.push(pub.id);
+            } else {
+              ids.push(pub.id);
+            }
+          });
+        });
+        
+        if (duplicates.length > 0) {
+          console.error('Duplicate publication IDs found:', duplicates);
+          process.exit(1);
+        }
+        
+        console.log('No duplicate IDs found. Total publications:', ids.length);
+        "
+        
+    - name: Validate URLs (Basic Check)
+      run: |
+        node -e "
+        const fs = require('fs');
+        const data = JSON.parse(fs.readFileSync('assets/html/publications.json', 'utf8'));
+        let invalidUrls = [];
+        
+        data.forEach(yearGroup => {
+          yearGroup.publications.forEach(pub => {
+            if (pub.url === 'path' || pub.url === 'NotAvailableYet' || pub.url === '#') {
+              console.warn('Publication with placeholder URL:', pub.title);
+            } else {
+              try {
+                new URL(pub.url);
+              } catch (e) {
+                invalidUrls.push({title: pub.title, url: pub.url});
+              }
+            }
+          });
+        });
+        
+        if (invalidUrls.length > 0) {
+          console.error('Invalid URLs found:', invalidUrls);
+          process.exit(1);
+        }
+        
+        console.log('URL validation completed successfully');
+        "
+
+    - name: Check JSON formatting
+      run: |
+        python3 -c "
+        import json
+        import sys
+        
+        try:
+            with open('assets/html/publications.json', 'r') as f:
+                data = json.load(f)
+            
+            # Check if JSON is properly formatted
+            formatted = json.dumps(data, indent=2, ensure_ascii=False)
+            
+            with open('assets/html/publications.json', 'r') as f:
+                original = f.read()
+            
+            if original.strip() != formatted.strip():
+                print('JSON formatting needs improvement')
+                # Could automatically format here in the future
+                sys.exit(1)
+            else:
+                print('JSON formatting is correct')
+                
+        except json.JSONDecodeError as e:
+            print(f'JSON parsing error: {e}')
+            sys.exit(1)
+        "
+
+  link-check:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+      
+    - name: Install link checker
+      run: |
+        pip install requests
+        
+    - name: Check publication links
+      run: |
+        python3 -c "
+        import json
+        import requests
+        import sys
+        from time import sleep
+        
+        with open('assets/html/publications.json', 'r') as f:
+            data = json.load(f)
+        
+        failed_links = []
+        checked_count = 0
+        
+        for year_group in data:
+            for pub in year_group['publications']:
+                if pub['url'] not in ['path', 'NotAvailableYet', '#']:
+                    try:
+                        response = requests.head(pub['url'], timeout=10, allow_redirects=True)
+                        if response.status_code >= 400:
+                            failed_links.append({
+                                'title': pub['title'],
+                                'url': pub['url'],
+                                'status': response.status_code
+                            })
+                        checked_count += 1
+                        sleep(0.5)  # Be respectful to servers
+                    except Exception as e:
+                        failed_links.append({
+                            'title': pub['title'],
+                            'url': pub['url'],
+                            'error': str(e)
+                        })
+                        checked_count += 1
+                        sleep(0.5)
+        
+        print(f'Checked {checked_count} links')
+        
+        if failed_links:
+            print('Failed links found:')
+            for link in failed_links:
+                print(f'- {link[\"title\"]}: {link[\"url\"]} ({link.get(\"status\", link.get(\"error\", \"unknown\"))})')
+            # Don't fail the build for link checks, just warn
+            print('Warning: Some links may be inaccessible, but build will continue')
+        else:
+            print('All links are accessible')
+        "
+      continue-on-error: true

@@ -1,0 +1,559 @@
+[
+  {
+    "year": 2025,
+    "publications": [
+      {
+        "id": "2025_singhy_deep_learning_analysis_of_magnetic",
+        "title": "Deep learning analysis of magnetic resonance imaging accurately detects early-stage perihilar cholangiocarcinoma in patients with primary sclerosing cholangitis",
+        "url": "https://journals.lww.com/aasldpubs/Documents/GISociety-JointStatement-Racism-FINAL.pdf",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2025_zhangk_recent_advances_in_compact_portable",
+        "title": "Recent Advances in Compact Portable Platforms and Gradient Hardware for Brain MRI",
+        "url": "https://pubs.rsna.org/doi/epdf/10.1148/radiol.241904",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2025_singhy_beyond_the_black_box_explainable",
+        "title": "Beyond the Black Box: Explainable AI Transforms Hepatocellular Carcinoma Diagnosis at MRI",
+        "url": "https://pubs.rsna.org/doi/epdf/10.1148/rycan.250198",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2025_faghanis_expanded_ai_learning_ai_as",
+        "title": "Expanded AI learning: AI as a Tool for Human Learning",
+        "url": "https://pdf.sciencedirectassets.com/272938/1-s2.0-S1076633225X00064/1-s2.0-S1076633225002843/main.pdf?X-Amz-Security-Token=***REMOVED***&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20250619T150941Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=***REMOVED***-east-1%2Fs3%2Faws4_request&X-Amz-Signature=***REMOVED***&hash=8f018c405ff4f45ffdabddc64f50104666eeefdf745ee4cf3fb32579d52dea2f&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S1076633225002843&tid=spdf-66a116d1-43fd-4c36-a174-4d1e198d6662&sid=b079b3f62ec1f045d72adfe4817c94e41eb2gxrqa&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&rh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=0f155b5b5d57065506&rr=9523f2ed3a34acde&cc=us",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2025_moassefim_crossinstitutional_evaluation_of_large_language",
+        "title": "Cross-Institutional Evaluation of Large Language Models for Radiology Diagnosis Extraction: A Prompt-Engineering Perspective",
+        "url": "https://link.springer.com/content/pdf/10.1007/s10278-025-01523-5.pdf",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2025_mahmoudie_a_comparative_analysis_of_privacypreserving",
+        "title": "A comparative analysis of privacy-preserving large language models for automated echocardiography report analysis",
+        "url": "https://watermark.silverchair.com/ocaf056.pdf?token=***REMOVED***",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2025_moassefim_advancing_endometriosis_detection_in_daily",
+        "title": "Advancing endometriosis detection in daily practice: a deep learning-enhanced multi-sequence MRI analytical model",
+        "url": "https://link.springer.com/content/pdf/10.1007/s00261-025-04942-8.pdf",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2025_codipillydc_deep_learning_model_for_histologic",
+        "title": "Deep Learning Model for Histologic Diagnosis of Dysplastic Barrett's Esophagus: Multisite Cohort External Validation",
+        "url": "https://cdn-tp2.mozu.com/16833-m1/cms/files/Author-Document.pdf?_mzts=636519775710000000",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2025_gamblec_applying_conformal_prediction_to_a",
+        "title": "Applying Conformal Prediction to a Deep Learning Model for Intracranial Hemorrhage Detection to Improve Trustworthiness",
+        "url": "https://pubs.rsna.org/doi/epdf/10.1148/ryai.240032",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2025_contegm_deep_learning_mri_models_for",
+        "title": "Deep learning MRI models for the differential diagnosis of tumefactive demyelination versus IDH-wildtype glioblastoma",
+        "url": "https://www.ajnr.org/content/ajnr/early/2025/01/30/ajnr.A8645.full.pdf",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2025_faghanis_is_retirement_a_pain_in",
+        "title": "Is retirement a pain in the back? A 23-year population-based study on the impact of age and employment on spinal injections",
+        "url": "https://journals.sagepub.com/doi/suppl/10.1177/19714009251345115/suppl_file/sj-pdf-1-neu-10.1177_19714009251345115.pdf",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2025_khosravib_role_of_model_size_and",
+        "title": "Role of Model Size and Prompting Strategies in Extracting Labels from Free-Text Radiology Reports with Open-Source Large Language Models",
+        "url": "https://link.springer.com/content/pdf/10.1007/s10278-025-01505-7.pdf",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2025_zawadasj_behavioral_monitoring_in_transient_ischemic",
+        "title": "Behavioral Monitoring in Transient Ischemic Attack and Stroke Patients: Exploratory Micro- and Macrostructural Imaging Insights for Identifying Post-Stroke Depression with Accelerometers in UK Biobank",
+        "url": "https://www.mdpi.com/1424-8220/25/3/963/pdf?version=1738770223",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2025_weiy_comprehensive_segmentation_of_gray_matter",
+        "title": "Comprehensive Segmentation of Gray Matter Structures on T1-Weighted Brain MRI: A Comparative Study of Convolutional Neural Network, Convolutional Neural Network Hybrid-Transformer or -Mamba Architectures",
+        "url": "https://www.ajnr.org/content/ajnr/46/4/742.full.pdf",
+        "type": "journal",
+        "status": "published"
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "publications": [
+      {
+        "id": "2024_bone_age_prediction",
+        "title": "Bone Age Prediciton Under Stress",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/38629960/",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2024_bridging_pixels",
+        "title": "Bridging Pixels to Genes",
+        "url": "https://pubs.rsna.org/doi/10.1148/ryai.240262?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2024_ai_gi_histopathology",
+        "title": "The Evolving Role of Artificial Intelligence in Gastrointestinal Histopathology: An Update",
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1542-3565(23)01050-9",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2024_fda_review_ai",
+        "title": "FDA Review of Radiologic AI Algorithms: Process and Challenges",
+        "url": "https://pubs.rsna.org/doi/10.1148/radiol.230242?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2024_medyolo",
+        "title": "MedYOLO: A Medical Image Object Detection Framework",
+        "url": "https://link.springer.com/article/10.1007/s10278-024-01138-2",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2024_synthetically_enhanced",
+        "title": "Synthetically enhanced: unveiling synthetic data's potential in medical imaging research",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/38821021/",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2024_thyroid_transfer_learning",
+        "title": "Exploring the Effect of Domain-Specific Transfer Learning for Thyroid Nodule Classification",
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1546-1440(24)00535-0",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2024_bias_invited_commentary",
+        "title": "Invited Commentary: The Double-edged Sword of Bias in Medical Imaging Artificial Intelligence",
+        "url": "https://pubs.rsna.org/doi/10.1148/rg.230243?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2024_tha_net",
+        "title": "THA-Net: A Deep Learning Solution for Next-Generation Templating and Patient-specific Surgical Execution",
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0883-5403(23)00872-0",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2024_csf_venous_fistula",
+        "title": "Identifying Patients with CSF-Venous Fistula Using Brain MRI: A Deep Learning Approach",
+        "url": "http://www.ajnr.org/cgi/pmidlookup?view=long&pmid=38423747",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2024_thyroid_multiview",
+        "title": "A Multi-View Deep Learning Model for Thyroid Nodules Detection and Characterization in Ultrasound Imaging",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/39061730/",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2024_gan_brain_mri",
+        "title": "Generative Adversarial Networks for Brain MRI Synthesis: Impact of Training Set Size on Clinical Application",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/38366293/",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2024_ril_workflow",
+        "title": "Visualizing Clinical Data Retrieval and Curation in Multimodal Healthcare AI Research: A Technical Note on RIL-workflow",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/38366291/",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2024_tha_aid",
+        "title": "THA-AID: Deep Learning Tool for Total Hip Arthroplasty Automatic Implant Detection With Uncertainty and Outlier Quantification",
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0883-5403(23)00983-X",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2024_myeloma_radiogenomics",
+        "title": "Whole-body low-dose computed tomography in patients with newly diagnosed multiple myeloma predicts cytogenetic risk: a deep learning radiogenomics study",
+        "url": "https://doi.org/10.1007/s00256-024-04733-0",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2024_tissue_age_ct",
+        "title": "Older Tissue Age Derived From Abdominal Computed Tomography Biomarkers of Muscle, Fat, and Bone Is Associated With Chronic Conditions and Higher Mortality",
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0025-6196(23)00469-X",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2024_prostate_cancer_ai",
+        "title": "Fully Automated Deep Learning Model to Detect Clinically Significant Prostate Cancer at MRI",
+        "url": "https://pubs.rsna.org/doi/full/10.1148/radiol.232635",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2024_siim_guideline",
+        "title": "A Guideline for Open-Source Tools to Make Medical Imaging Data Ready for Artificial Intelligence Applications: A Society of Imaging Informatics in Medicine (SIIM) Survey--In Process",
+        "url": "https://link.springer.com/article/10.1007/s10278-024-01083-0",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2024_reproducibility_checklist",
+        "title": "Checklist for Reproducibility of Deep Learning in Medical Imaging",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11300409/",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2024_shiroishims_the_qiba_profile_for_dynamic",
+        "title": "The QIBA Profile for Dynamic Susceptibility Contrast MRI Quantitative Imaging Biomarkers for Assessing Gliomas",
+        "url": "https://pubs.rsna.org/doi/epdf/10.1148/radiol.232555",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2024_faghanis_uncover_this_tech_term_uncertainty",
+        "title": "Uncover This Tech Term: Uncertainty Quantification for Deep Learning",
+        "url": "https://kjronline.org/pdf/10.3348/kjr.2024.0108",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2024_singhy_generative_ai_in_oncological_imaging",
+        "title": "Generative AI in oncological imaging: Revolutionizing cancer detection and diagnosis",
+        "url": "https://www.oncotarget.com/article/28640/pdf/",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2024_faghanis_bone_age_prediction_under_stress",
+        "title": "Bone Age Prediction under Stress",
+        "url": "https://pubs.rsna.org/doi/epdf/10.1148/ryai.240137",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2024_moassefim_checklist_for_reproducibility_of_deep",
+        "title": "Checklist for Reproducibility of Deep Learning in Medical Imaging",
+        "url": "https://link.springer.com/content/pdf/10.1007/s10278-024-01065-2.pdf",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2024_singhy_computed_tomographybased_radiomics_and_body",
+        "title": "Computed tomography-based radiomics and body composition model for predicting hepatic decompensation",
+        "url": "https://www.oncotarget.com/article/28673/pdf/",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2024_zawadasj_feasibility_of_observing_cerebrovascular_disease",
+        "title": "Feasibility of Observing Cerebrovascular Disease Phenotypes with Smartphone Monitoring: Study Design Considerations for Real-World Studies",
+        "url": "https://www.mdpi.com/1424-8220/24/11/3595/pdf?version=1717381887",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2024_singhy_deep_learningbased_prediction_of_hepatic",
+        "title": "Deep Learning-Based Prediction of Hepatic Decompensation in Patients With Primary Sclerosing Cholangitis With Computed Tomography",
+        "url": "https://www.mcpdigitalhealth.org/article/S2949-7612(24)00072-5/fulltext",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2024_faghanis_deeplearning_for_automated_detection_of",
+        "title": "Deep-learning for automated detection of MSU deposits on DECT: evaluating impact on efficiency and reader confidence",
+        "url": "https://www.frontiersin.org/journals/radiology/articles/10.3389/fradi.2024.1330399/pdf",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2024_khosravib_analyzing_racial_differences_in_imaging",
+        "title": "Analyzing Racial Differences in Imaging Joint Replacement Registries Using Generative Artificial Intelligence: Advancing Orthopaedic Data Equity",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2352344124001882",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2024_vahdatis_a_guideline_for_opensource_tools",
+        "title": "A Guideline for Open-Source Tools to Make Medical Imaging Data Ready for Artificial Intelligence Applications: A Society of Imaging Informatics in Medicine (SIIM) Survey",
+        "url": "https://link.springer.com/content/pdf/10.1007/s10278-024-01083-0.pdf",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2024_jagtapjm_glomerular_and_nephron_size_and",
+        "title": "Glomerular and Nephron Size and Kidney Disease Outcomes: A Comparison of Manual Versus Deep Learning Methods in Kidney Pathology",
+        "url": "https://www.sciencedirect.com/science/article/pii/S259005952400150X?via%3Dihub",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2024_moassefim_exploring_the_impact_of_3d",
+        "title": "Exploring the Impact of 3D Fast Spin Echo and Inversion Recovery Gradient Echo Sequences Magnetic Resonance Imaging Acquisition on Automated Brain Tumor Segmentation",
+        "url": "https://www.mcpdigitalhealth.org/article/S2949-7612(24)00026-9/pdf",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2024_faghanis_development_of_a_deep_learning",
+        "title": "Development of a deep learning model for the automated detection of green pixels indicative of gout on dual energy CT scan",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39076582/",
+        "type": "journal",
+        "status": "published"
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "publications": [
+      {
+        "id": "2023_uncertainty_quantification",
+        "title": "Quantifying Uncertainty in Deep Learning of Radiologic Images",
+        "url": "https://pubs.rsna.org/doi/10.1148/radiol.222217?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2023_reproducibility_systematic_review",
+        "title": "Reproducibility of Deep Learning Algorithms Developed for Medical Imaging Analysis: A Systematic Review",
+        "url": "https://doi.org/10.1007/s10278-023-00870-5",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2023_nlp_joint_arthroplasty",
+        "title": "Application of Natural Language Processing in Total Joint Arthroplasty: Opportunities and Challenges",
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0883-5403(23)00854-9",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2023_anonymizing_radiographs",
+        "title": "Anonymizing Radiographs Using an Object Detection Deep Learning Algorithm",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/38074777/",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2023_few_shot_segmentation",
+        "title": "Few-shot biomedical image segmentation using diffusion models: Beyond image generation",
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0169-2607(23)00498-4",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2023_ai_radiology_overview",
+        "title": "Artificial Intelligence in Radiology: Overview of Application Types, Design, and Challenges",
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0037-198X(23)00006-8",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2023_kidney_volume_ai",
+        "title": "Clinical Implementation of an Artificial Intelligence Algorithm for Magnetic Resonance-Derived Measurement of Total Kidney Volume",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/36931980/",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2023_adrenal_masses_dl",
+        "title": "Deep learning approach for differentiating indeterminate adrenal masses using CT imaging",
+        "url": "https://dx.doi.org/10.1007/s00261-023-03988-w",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2023_myeloma_lytic_lesions",
+        "title": "A deep learning algorithm for detecting lytic bone lesions of multiple myeloma on CT",
+        "url": "https://doi.org/10.1007/s00256-022-04160-z",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2023_adpkd_biomarkers",
+        "title": "Utility of new image-derived biomarkers for autosomal dominant polycystic kidney disease prognosis using automated instance cyst segmentation",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/36736536/",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2023_mgmt_prediction",
+        "title": "A Comparison of Three Different Deep Learning-Based Models to Predict the MGMT Promoter Methylation Status in Glioblastoma Using Brain MRI",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/36604366/",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2023_synthetic_pelvis_gan",
+        "title": "Creating High Fidelity Synthetic Pelvis Radiographs Using Generative Adversarial Networks: Unlocking the Potential of Deep Learning Models Without Patient Privacy Concerns",
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0883-5403(22)01087-7",
+        "type": "journal",
+        "status": "published"
+      }
+    ]
+  },
+  {
+    "year": 2022,
+    "publications": [
+      {
+        "id": "2022_soup_gan",
+        "title": "SOUP-GAN: Super-Resolution MRI Using Generative Adversarial Networks",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/35448707/",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2022_cardiothoracic_scoping",
+        "title": "Machine Learning and Deep Learning in Cardiothoracic Imaging: A Scoping Review",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/36292201/",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2022_bias_data_handling",
+        "title": "Mitigating Bias in Radiology Machine Learning: 1. Data Handling",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/36204544/",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2022_bias_model_development",
+        "title": "Mitigating Bias in Radiology Machine Learning: 2. Model Development",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/36204532/",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2022_bias_performance_metrics",
+        "title": "Mitigating Bias in Radiology Machine Learning: 3. Performance Metrics",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/36204539/",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2022_algebraic_topology_psc",
+        "title": "Algebraic topology-based machine learning using MRI predicts outcomes in primary sclerosing cholangitis",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/36396865/",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2022_hip_dislocation_risk",
+        "title": "Patient-specific Hip Arthroplasty Dislocation Risk Calculator: An Explainable Multimodal Machine Learning-based Approach",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/36523643/",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2022_nlp_ehr_future",
+        "title": "Getting More Out of Large Databases and EHRs with Natural Language Processing and Artificial Intelligence: The Future Is Here",
+        "url": "https://doi.org/10.2106/JBJS.22.00567",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2022_femoral_subsidence",
+        "title": "Deep Learning for Radiographic Measurement of Femoral Component Subsidence Following Total Hip Arthroplasty",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/35652119/",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2022_glioblastoma_progression",
+        "title": "A deep learning model for discriminating true progression from pseudoprogression in glioblastoma patients",
+        "url": "https://doi.org/10.1007/s11060-022-04080-x",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2022_barrett_esophagus",
+        "title": "Development of a deep learning model for the histologic diagnosis of dysplasia in Barrett's esophagus",
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0016-5107(22)01764-3",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "2022_kidney_volume_ultrasound",
+        "title": "Automated measurement of total kidney volume from 3D ultrasound images of patients affected by polycystic kidney disease and comparison to MR measurements",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/35476147/",
+        "type": "journal",
+        "status": "published"
+      }
+    ]
+  },
+  {
+    "year": "older",
+    "publications": [
+      {
+        "id": "older_ml_medical_imaging",
+        "title": "Machine Learning for Medical Imaging",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/28212054/",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "older_magician_corner_dl_2021",
+        "title": "Magician's Corner: How to Start Learning about Deep Learning",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/33937797/",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "older_magician_corner_dl_1998",
+        "title": "Magician's Corner: How to Start Learning about Deep Learning",
+        "url": "https://pubs.rsna.org/doi/10.1148/radiology.206.3.9494473?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "older_image_display",
+        "title": "Image display for clinicians on medical record workstations",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/9268835/",
+        "type": "journal",
+        "status": "published"
+      },
+      {
+        "id": "older_brain_tumor_change_detection",
+        "title": "Part 1. Automated change detection and characterization in serial MR studies of brain-tumor patients",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/17216385/",
+        "type": "journal",
+        "status": "published"
+      }
+    ]
+  }
+]

@@ -1,0 +1,65 @@
+Publication Download Report
+========================================
+
+Total processed: 50
+Successful downloads: 33
+Failed downloads: 17
+Success rate: 66.0%
+
+Downloaded Files:
+--------------------
+2024-Codipilly DC-The Evolving Role of Artificial Intelligence in Gastrointestinal Histopathology An Update.pdf (0.0 MB)
+2024-Faghani S-Deep-learning for automated detection of MSU deposits on DECT evaluating impact on efficiency and reader confidence.pdf (2.9 MB)
+2024-Faghani S-Development of a deep learning model for the automated detection of green pixels indicative of gout on dual energy CT scan.pdf (0.0 MB)
+2024-Faghani S-Uncover This Tech Term Uncertainty Quantification for Deep Learning.pdf (0.3 MB)
+2024-Im JE-A Systematic Review on the Use of Registration-Based Change Tracking Methods in Longitudinal Radiological Images.pdf (1.2 MB)
+2024-Jagtap JM-Glomerular and Nephron Size and Kidney Disease Outcomes A Comparison of Manual Versus Deep Learning Methods in Kidney Pathology.pdf (0.0 MB)
+2024-Khosravi B-Analyzing Racial Differences in Imaging Joint Replacement Registries Using Generative Artificial Intelligence Advancing Orthopaedic Data Equity.pdf (0.0 MB)
+2024-Khosravi B-Synthetically enhanced unveiling synthetic data's potential in medical imaging research.pdf (0.0 MB)
+2024-Moassefi M-Checklist for Reproducibility of Deep Learning in Medical Imaging.pdf (1.4 MB)
+2024-Moassefi M-Exploring the Impact of 3D Fast Spin Echo and Inversion Recovery Gradient Echo Sequences Magnetic Resonance Imaging Acquisition on Automated Brain Tumor Segmentation.pdf (0.0 MB)
+2024-Rouzrokh P-THA-AID Deep Learning Tool for Total Hip Arthroplasty Automatic Implant Detection With Uncertainty and Outlier Quantification.pdf (0.0 MB)
+2024-Rouzrokh P-THA-Net A Deep Learning Solution for Next-Generation Templating and Patient-specific Surgical Execution.pdf (0.0 MB)
+2024-Rule AD-Older Tissue Age Derived From Abdominal Computed Tomography Biomarkers of Muscle, Fat, and Bone Is Associated With Chronic Conditions and Higher Mortality.pdf (0.0 MB)
+2024-Sabov M-Association of Kidney Cysts With Progressive CKD After Radical Nephrectomy.pdf (0.0 MB)
+2024-Singh Y-Computed tomography-based radiomics and body composition model for predicting hepatic decompensation.pdf (0.6 MB)
+2024-Singh Y-Deep Learning-Based Prediction of Hepatic Decompensation in Patients With Primary Sclerosing Cholangitis With Computed Tomography.pdf (0.0 MB)
+2024-Singh Y-Generative AI in oncological imaging Revolutionizing cancer detection and diagnosis.pdf (0.2 MB)
+2024-Sobek J-MedYOLO A Medical Image Object Detection Framework.pdf (1.0 MB)
+2024-Vahdati S-A Guideline for Open-Source Tools to Make Medical Imaging Data Ready for Artificial Intelligence Applications A Society of Imaging Informatics in Medicine (SIIM) Survey.pdf (1.0 MB)
+2024-Vahdati S-A Multi-View Deep Learning Model for Thyroid Nodules Detection and Characterization in Ultrasound Imaging.pdf (2.1 MB)
+2024-Vahdati S-Exploring the Effect of Domain-Specific Transfer Learning for Thyroid Nodule Classification.pdf (0.0 MB)
+2024-Ye RZ-Automatic ARDS surveillance with chest X-ray recognition using convolutional neural networks.pdf (0.0 MB)
+2024-Zawada SJ-Feasibility of Observing Cerebrovascular Disease Phenotypes with Smartphone Monitoring Study Design Considerations for Real-World Studies.pdf (0.5 MB)
+2024-Zoghby MM-Generative Adversarial Networks for Brain MRI Synthesis Impact of Training Set Size on Clinical Application.pdf (4.5 MB)
+2025-Codipilly DC-Deep Learning Model for Histologic Diagnosis of Dysplastic Barrett's Esophagus Multisite Cohort External Validation.pdf (0.8 MB)
+2025-Faghani S-Expanded AI learning AI as a Tool for Human Learning.pdf (0.0 MB)
+2025-Faghani S-Whole-body low-dose computed tomography in patients with newly diagnosed multiple myeloma predicts cytogenetic risk a deep learning radiogenomics study.pdf (0.7 MB)
+2025-Khosravi B-Role of Model Size and Prompting Strategies in Extracting Labels from Free-Text Radiology Reports with Open-Source Large Language Models.pdf (1.7 MB)
+2025-Moassefi M-Advancing endometriosis detection in daily practice a deep learning-enhanced multi-sequence MRI analytical model.pdf (2.2 MB)
+2025-Moassefi M-Cross-Institutional Evaluation of Large Language Models for Radiology Diagnosis Extraction A Prompt-Engineering Perspective.pdf (1.7 MB)
+2025-Mukhtar H-Pilot Study of Using Machine Learning to Detect Atherosclerotic Renal Artery Stenosis From Spectral Doppler Waveforms.pdf (0.0 MB)
+2025-Singh Y-Deep learning analysis of magnetic resonance imaging accurately detects early-stage perihilar cholangiocarcinoma in patients with primary sclerosing cholangitis.pdf (0.1 MB)
+2025-Zawada SJ-Behavioral Monitoring in Transient Ischemic Attack and Stroke Patients Exploratory Micro- and Macrostructural Imaging Insights for Identifying Post-Stroke Depression with Accelerometers in UK Biobank.pdf (1.0 MB)
+
+Failed Downloads (17):
+------------------------------
+Bridging Pixels to Genes | Moassefi M | 10.1148/ryai.240262
+Fully Automated Deep Learning Model to Detect Clinically Significant Prostate Cancer at MRI | Cai JC | 10.1148/radiol.232635
+The QIBA Profile for Dynamic Susceptibility Contrast MRI Quantitative Imaging Biomarkers for Assessing Gliomas | Shiroishi MS | 10.1148/radiol.232555
+Bone Age Prediction under Stress | Faghani S | 10.1148/ryai.240137
+FDA Review of Radiologic AI Algorithms: Process and Challenges | Zhang K | 10.1148/radiol.230242
+The ABCs of Subarachnoid Hemorrhage Blood Volume Measurement: A Simplified Quantitative Method Predicts Outcomes and Delayed Cerebral Ischemia | Föttinger F | 10.1161/JAHA.123.032195
+Recent Advances in Compact Portable Platforms and Gradient Hardware for Brain MRI | Zhang K | 10.1148/radiol.241904
+Invited Commentary: The Double-edged Sword of Bias in Medical Imaging Artificial Intelligence | Rouzrokh P | 10.1148/rg.230243
+Lessons Learned in Building Expertly Annotated Multi-Institution Datasets and Hosting the RSNA AI Challenges | Kitamura FC | 10.1148/ryai.230227
+Beyond the Black Box: Explainable AI Transforms Hepatocellular Carcinoma Diagnosis at MRI | Singh Y | 10.1148/rycan.250198
+Identifying Patients with CSF-Venous Fistula Using Brain MRI: A Deep Learning Approach | Faghani S | 10.3174/ajnr.A8173
+Abdominal Body Composition Reference Ranges and Association With Chronic Conditions in an Age- and Sex-Stratified Representative Sample of a Geographically Defined American Population | Weston AD | 10.1093/gerona/glae055
+A comparative analysis of privacy-preserving large language models for automated echocardiography report analysis | Mahmoudi E | 10.1093/jamia/ocaf056
+Applying Conformal Prediction to a Deep Learning Model for Intracranial Hemorrhage Detection to Improve Trustworthiness | Gamble C | 10.1148/ryai.240032
+Deep learning MRI models for the differential diagnosis of tumefactive demyelination versus IDH-wildtype glioblastoma | Conte GM | 10.3174/ajnr.A8645
+Is retirement a pain in the back? A 23-year population-based study on the impact of age and employment on spinal injections | Faghani S | 10.1177/19714009251345115
+Comprehensive Segmentation of Gray Matter Structures on T1-Weighted Brain MRI: A Comparative Study of Convolutional Neural Network, Convolutional Neural Network Hybrid-Transformer or -Mamba Architectures | Wei Y | 10.3174/ajnr.A8544
+
+Report generated: 2025-06-19 10:07:55

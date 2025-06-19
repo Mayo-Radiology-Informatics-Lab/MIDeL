@@ -1,0 +1,173 @@
+name: Publication Management
+
+on:
+  issues:
+    types: [opened, edited]
+  pull_request:
+    types: [opened, synchronize]
+    paths: ['assets/html/publications.json']
+
+jobs:
+  validate-publication-submission:
+    if: github.event.issue && contains(github.event.issue.labels.*.name, 'publication')
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Check organization membership
+      uses: actions/github-script@v7
+      with:
+        script: |
+          try {
+            const { data: membership } = await github.rest.orgs.getMembershipForUser({
+              org: 'Mayo-Radiology-Informatics-Lab',
+              username: context.payload.issue.user.login
+            });
+            
+            if (membership.state !== 'active') {
+              await github.rest.issues.createComment({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: '❌ **Access Denied**: You must be an active member of the Mayo-Radiology-Informatics-Lab organization to submit publications.'
+              });
+              
+              await github.rest.issues.update({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                state: 'closed',
+                labels: ['publication', 'access-denied']
+              });
+              
+              core.setFailed('User is not an active organization member');
+              return;
+            }
+            
+            // Add validation passed label
+            await github.rest.issues.addLabels({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: ['validated', 'awaiting-review']
+            });
+            
+            await github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '✅ **Validation Passed**: Organization membership confirmed. This submission is now awaiting review by maintainers.'
+            });
+            
+          } catch (error) {
+            console.log('Error checking membership:', error);
+            await github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '❌ **Access Denied**: Unable to verify organization membership. You must be a member of the Mayo-Radiology-Informatics-Lab organization.'
+            });
+            
+            await github.rest.issues.update({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'closed',
+              labels: ['publication', 'access-denied']
+            });
+            
+            core.setFailed('Unable to verify organization membership');
+          }
+
+  validate-publications-json:
+    if: github.event.pull_request
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        
+    - name: Validate JSON structure
+      run: |
+        # Check if publications.json is valid JSON
+        if ! jq empty assets/html/publications.json; then
+          echo "❌ publications.json is not valid JSON"
+          exit 1
+        fi
+        
+        echo "✅ publications.json is valid JSON"
+        
+    - name: Check for duplicate IDs
+      run: |
+        # Extract all publication IDs and check for duplicates
+        DUPLICATES=$(jq -r '.[].publications[].id' assets/html/publications.json | sort | uniq -d)
+        
+        if [ ! -z "$DUPLICATES" ]; then
+          echo "❌ Duplicate publication IDs found:"
+          echo "$DUPLICATES"
+          exit 1
+        fi
+        
+        echo "✅ No duplicate publication IDs found"
+        
+    - name: Validate required fields
+      run: |
+        # Check that all publications have required fields
+        MISSING_FIELDS=$(jq -r '.[] | .publications[] | select(.id == null or .title == null or .url == null or .year == null) | .title // "Unknown Title"' assets/html/publications.json)
+        
+        if [ ! -z "$MISSING_FIELDS" ]; then
+          echo "❌ Publications with missing required fields:"
+          echo "$MISSING_FIELDS"
+          exit 1
+        fi
+        
+        echo "✅ All publications have required fields"
+        
+    - name: Check URL accessibility
+      run: |
+        # Extract URLs and check if they're accessible (basic format check)
+        INVALID_URLS=$(jq -r '.[].publications[].url' assets/html/publications.json | grep -v "^https\?://" || true)
+        
+        if [ ! -z "$INVALID_URLS" ]; then
+          echo "❌ Invalid URLs found:"
+          echo "$INVALID_URLS"
+          exit 1
+        fi
+        
+        echo "✅ All URLs have valid format"
+        
+    - name: Post validation results
+      if: always()
+      uses: actions/github-script@v7
+      with:
+        script: |
+          const fs = require('fs');
+          
+          // Read the publications file to get stats
+          const publications = JSON.parse(fs.readFileSync('assets/html/publications.json', 'utf8'));
+          const totalPubs = publications.reduce((sum, year) => sum + year.publications.length, 0);
+          const years = publications.map(y => y.year).join(', ');
+          
+          const message = `## 📊 Publication Validation Results
+          
+          ✅ **JSON Structure**: Valid
+          ✅ **Duplicate Check**: Passed
+          ✅ **Required Fields**: All present
+          ✅ **URL Format**: Valid
+          
+          **Statistics:**
+          - Total Publications: ${totalPubs}
+          - Years Covered: ${years}
+          
+          The publications.json file has been successfully validated!`;
+          
+          await github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: message
+          });

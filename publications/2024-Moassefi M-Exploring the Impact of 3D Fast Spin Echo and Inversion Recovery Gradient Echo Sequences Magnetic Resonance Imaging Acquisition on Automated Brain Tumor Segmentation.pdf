@@ -1,0 +1,51 @@
+tion autoRedirectToURL() {
+		var url = '/retrieve/'+document.getElementById('resultName').value+'?Redirect='+document.getElementById('redirectURL').value+'&key='+document.getElementById('key').value
+	  window.location = url;
+	}
+	
+</script>
+</head>
+<body onload="autoRedirectToURL();">
+	<tr style="display:none;">
+  <td colspan="2">
+<input type="hidden" name="redirectURL" value="https%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS2949761224000269%3Fvia%253Dihub" id="redirectURL"/>  </td>
+</tr>
+ 
+	<tr style="display:none;">
+  <td colspan="2">
+<input type="hidden" name="key" value="c633a92c7936a05e0fc1fa568c58567ee0a1af75" id="key"/>  </td>
+</tr>
+
+    <tr style="display:none;">
+  <td colspan="2">
+<input type="hidden" name="id" value="S2949761224000269" id="id"/>  </td>
+</tr>
+ 
+	<tr style="display:none;">
+  <td colspan="2">
+<input type="hidden" name="resultName" value="articleSelectPrefsPerm" id="resultName"/>  </td>
+</tr>
+
+</body>
+<script>
+
+		siteCatalyst.pageDataLoad({
+			     businessUnit : 'ELS:RP:ST',
+			     environment : 'prod',
+			     language : 'en',
+			     loadTime : (Date.now() - timerStart).toString(),
+			     loadTimestamp : Date.now().toString(),
+			     name : pageName,
+			     productName : 'IH',
+			     type : 'ih:article',        
+			     detail : 'sciencedirect',
+			     format :"MIME-XHTML",
+			     accessType : 'ih:anon_guest',
+			     ipAddress : '129.176.197.230',
+			     identifierType : 'PII',
+                 identifierValue : 'S2949761224000269',
+			     articleName : 'Exploring the Impact of 3D Fast Spin Echo and Inversion Recovery Gradient Echo Sequences Magnetic Resonance Imaging Acquisition on Automated Brain Tumor Segmentation',
+			     location : "Linking Hub"
+		});
+	</script>
+</html>

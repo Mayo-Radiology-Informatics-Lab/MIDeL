@@ -1,0 +1,51 @@
+ction autoRedirectToURL() {
+		var url = '/retrieve/'+document.getElementById('resultName').value+'?Redirect='+document.getElementById('redirectURL').value+'&key='+document.getElementById('key').value
+	  window.location = url;
+	}
+	
+</script>
+</head>
+<body onload="autoRedirectToURL();">
+	<tr style="display:none;">
+  <td colspan="2">
+<input type="hidden" name="redirectURL" value="https%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS277265252400005X%3Fvia%253Dihub" id="redirectURL"/>  </td>
+</tr>
+ 
+	<tr style="display:none;">
+  <td colspan="2">
+<input type="hidden" name="key" value="b99962b8a0251b44f6d8b242db72f93efa2d18c2" id="key"/>  </td>
+</tr>
+
+    <tr style="display:none;">
+  <td colspan="2">
+<input type="hidden" name="id" value="S277265252400005X" id="id"/>  </td>
+</tr>
+ 
+	<tr style="display:none;">
+  <td colspan="2">
+<input type="hidden" name="resultName" value="articleSelectSinglePerm" id="resultName"/>  </td>
+</tr>
+
+</body>
+<script>
+
+		siteCatalyst.pageDataLoad({
+			     businessUnit : 'ELS:RP:ST',
+			     environment : 'prod',
+			     language : 'en',
+			     loadTime : (Date.now() - timerStart).toString(),
+			     loadTimestamp : Date.now().toString(),
+			     name : pageName,
+			     productName : 'IH',
+			     type : 'ih:article',        
+			     detail : 'sciencedirect',
+			     format :"MIME-XHTML",
+			     accessType : 'ih:anon_guest',
+			     ipAddress : '129.176.197.230',
+			     identifierType : 'PII',
+                 identifierValue : 'S277265252400005X',
+			     articleName : 'Development of a deep learning model for the automated detection of green pixels indicative of gout on dual energy CT scan',
+			     location : "Linking Hub"
+		});
+	</script>
+</html>

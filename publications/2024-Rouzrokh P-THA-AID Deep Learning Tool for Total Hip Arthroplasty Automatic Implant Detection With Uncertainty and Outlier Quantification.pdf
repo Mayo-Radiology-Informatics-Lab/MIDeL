@@ -1,0 +1,51 @@
+tion autoRedirectToURL() {
+		var url = '/retrieve/'+document.getElementById('resultName').value+'?Redirect='+document.getElementById('redirectURL').value+'&key='+document.getElementById('key').value
+	  window.location = url;
+	}
+	
+</script>
+</head>
+<body onload="autoRedirectToURL();">
+	<tr style="display:none;">
+  <td colspan="2">
+<input type="hidden" name="redirectURL" value="https%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS088354032300983X%3Fvia%253Dihub" id="redirectURL"/>  </td>
+</tr>
+ 
+	<tr style="display:none;">
+  <td colspan="2">
+<input type="hidden" name="key" value="895df83e14f65dbc6164263a5c2a19cf11b57ffa" id="key"/>  </td>
+</tr>
+
+    <tr style="display:none;">
+  <td colspan="2">
+<input type="hidden" name="id" value="S088354032300983X" id="id"/>  </td>
+</tr>
+ 
+	<tr style="display:none;">
+  <td colspan="2">
+<input type="hidden" name="resultName" value="articleSelectPrefsPerm" id="resultName"/>  </td>
+</tr>
+
+</body>
+<script>
+
+		siteCatalyst.pageDataLoad({
+			     businessUnit : 'ELS:RP:ST',
+			     environment : 'prod',
+			     language : 'en',
+			     loadTime : (Date.now() - timerStart).toString(),
+			     loadTimestamp : Date.now().toString(),
+			     name : pageName,
+			     productName : 'IH',
+			     type : 'ih:article',        
+			     detail : 'sciencedirect',
+			     format :"MIME-XHTML",
+			     accessType : 'ih:anon_guest',
+			     ipAddress : '129.176.197.230',
+			     identifierType : 'PII',
+                 identifierValue : 'S088354032300983X',
+			     articleName : 'THA-AID: Deep Learning Tool for Total Hip Arthroplasty Automatic Implant Detection With Uncertainty and Outlier Quantification',
+			     location : "Linking Hub"
+		});
+	</script>
+</html>

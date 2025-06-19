@@ -1,0 +1,51 @@
+tion autoRedirectToURL() {
+		var url = '/retrieve/'+document.getElementById('resultName').value+'?Redirect='+document.getElementById('redirectURL').value+'&key='+document.getElementById('key').value
+	  window.location = url;
+	}
+	
+</script>
+</head>
+<body onload="autoRedirectToURL();">
+	<tr style="display:none;">
+  <td colspan="2">
+<input type="hidden" name="redirectURL" value="https%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS259005952400150X%3Fvia%253Dihub" id="redirectURL"/>  </td>
+</tr>
+ 
+	<tr style="display:none;">
+  <td colspan="2">
+<input type="hidden" name="key" value="95ccbac164a79ad4f8dc87c72575b495c9e22fff" id="key"/>  </td>
+</tr>
+
+    <tr style="display:none;">
+  <td colspan="2">
+<input type="hidden" name="id" value="S259005952400150X" id="id"/>  </td>
+</tr>
+ 
+	<tr style="display:none;">
+  <td colspan="2">
+<input type="hidden" name="resultName" value="articleSelectPrefsPerm" id="resultName"/>  </td>
+</tr>
+
+</body>
+<script>
+
+		siteCatalyst.pageDataLoad({
+			     businessUnit : 'ELS:RP:ST',
+			     environment : 'prod',
+			     language : 'en',
+			     loadTime : (Date.now() - timerStart).toString(),
+			     loadTimestamp : Date.now().toString(),
+			     name : pageName,
+			     productName : 'IH',
+			     type : 'ih:article',        
+			     detail : 'sciencedirect',
+			     format :"MIME-XHTML",
+			     accessType : 'ih:anon_guest',
+			     ipAddress : '129.176.197.230',
+			     identifierType : 'PII',
+                 identifierValue : 'S259005952400150X',
+			     articleName : 'Glomerular and Nephron Size and Kidney Disease Outcomes: A Comparison of Manual Versus Deep Learning Methods in Kidney Pathology',
+			     location : "Linking Hub"
+		});
+	</script>
+</html>
