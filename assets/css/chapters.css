@@ -42,15 +42,7 @@
     border-radius: 15px;
     width: auto;
 }
-#chapters .theme-container .topic .level-tag.beginner{
-    background-color: #3AC253;
-}
-#chapters .theme-container .topic .level-tag.intermediate{
-    background-color: #3A67C2;
-}
-#chapters .theme-container .topic .level-tag.advanced{
-    background-color: #C23A3F;
-}
+
 #chapters .theme-container .topic .link{
     font-style: italic;
     font-size: 0.9rem !important;
