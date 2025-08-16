@@ -6,104 +6,101 @@
     },
     {
         "topic-title":"Machine Learning Tasks",
-        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/1B.ipynb"
-    },
-    {
-        "topic-title":"Ethics in medical AI",
-        "notebook-link":"#"
-    }
-    ]],
-    [2,"Simple Examples of Machine Learning", [
-    {
-        "topic-title":"Fundementals of programming",
         "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/2A.ipynb"
     },
     {
-        "topic-title":"Simple regression",
-        "notebook-link":"#"
-    },
-    {
-        "topic-title":"Simple classification",
-        "notebook-link":"#"
-    },
-    {
-        "topic-title":"Simple segmentation",
-        "notebook-link":"#"
-    },
-    {
-        "topic-title":"Simple generative AI",
+        "topic-title":"Ethics in Medical AI - Coming Soon...",
         "notebook-link":"#"
     }
     ]],
-    [3,"Handling medical images", [
+    [2,"First Generation of Machine Learning", [
     {
-        "topic-title":"Medical imaging modalities",
+        "topic-title":"Fundementals of Programming",
+        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/4A.ipynb"
+    },
+    {
+        "topic-title":"Simple Regression - Coming Soon...",
+        "notebook-link":"#"
+    },
+    {
+        "topic-title":"Simple Classification - Coming Soon...",
+        "notebook-link":"#"
+    },
+    {
+        "topic-title":"Simple Segmentation - Coming Soon...",
+        "notebook-link":"#"
+    },
+    {
+        "topic-title":"Simple Generative AI - Coming Soon...",
+        "notebook-link":"#"
+    },
+    {
+        "topic-title":"Networks with memory",
+        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/12B.ipynb"
+    }
+    ]],
+    [3,"Handling Medical Images", [
+    {
+        "topic-title":"Medical Imaging Modalities",
         "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/3A.ipynb"
     },
     {
-        "topic-title":"Medical imaging standards",
+        "topic-title":"Medical Imaging Standards",
         "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/3B.ipynb"
     },
     {
-        "topic-title":"Image processing toolbox",
-        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/3C.ipynb"
+        "topic-title":"Image Processing Toolbox",
+        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/7A.ipynb"
     },
     {
-        "topic-title":"Medical imaging toolbox",
-        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/3D.ipynb"
+        "topic-title":"Medical Imaging Toolbox",
+        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/5A.ipynb"
     },
     {
-        "topic-title":"Image manipulation",
-        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/3E.ipynb"
+        "topic-title":"Image Manipulation",
+        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/6A.ipynb"
     }
     ]],
-    [4,"Training a model", [
+    [4,"How to Train Your Model", [
     {
-        "topic-title":"Data loaders and augmentation",
+        "topic-title":"Data Loaders and Augmentation - Coming Soon...",
         "notebook-link":"#"
     },
     {
-        "topic-title":"Loss function",
+        "topic-title":"Loss Function - Coming Soon...",
         "notebook-link":"#"
     },
     {
-        "topic-title":"Training loop",
+        "topic-title":"Training Loop - Coming Soon...",
         "notebook-link":"#"
     },
     {
-        "topic-title":"Evaluation",
+        "topic-title":"Evaluation - Coming Soon...",
         "notebook-link":"#"
     }
     ]],
-    [5,"Components of Deep Learning Models", [
+    [5,"Second Generation of Deep Learning Models", [
+
     {
-        "topic-title":"Components of Deep Learning Models",
-        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/8A.ipynb"
-    },
-    {
-        "topic-title":"Components of Deep Learning Models_ section 2",
+        "topic-title":"Section 1",
         "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/8B.ipynb"
     },
     {
-        "topic-title":"Focal Loss",
-        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/8C.ipynb"
-    },
-    {
-        "topic-title":"Coming Soon...",
+        "topic-title":"Section 2 - Coming Soon...",
         "notebook-link":"#"
     }
     ]],
-    [6,"Training Strategy", [
+    [6,"Deep Learning frameworks", [
     {
-        "topic-title":"Training Strategy and Components",
+        "topic-title":"Training Pipeline: Basic Components",
         "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/9A.ipynb"
     },
     {
-        "topic-title":"Transfer Learning and Fine-tuning",
+        "topic-title":"Training Pipeline: Hyperparameter Tuning",
         "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/9B.ipynb"
     },
     {
-        "topic-title":"Coming Soon...",
+        "topic-title":"Training Pipeline: Advanced Tools - Coming Soon...",
         "notebook-link":"#"
     }
     ]],
