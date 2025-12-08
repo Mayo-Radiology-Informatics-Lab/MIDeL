@@ -19,12 +19,16 @@
         "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/4A.ipynb"
     },
     {
+        "topic-title":"Fundamental elements of Networks",
+        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/8A.ipynb"
+    },
+    {
         "topic-title":"Simple Regression - Coming Soon...",
         "notebook-link":"#"
     },
     {
-        "topic-title":"Simple Classification - Coming Soon...",
-        "notebook-link":"#"
+        "topic-title":"Simple Classification",
+        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/Simple_classification.ipynb"
     },
     {
         "topic-title":"Simple Segmentation - Coming Soon...",
