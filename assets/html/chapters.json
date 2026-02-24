@@ -79,8 +79,8 @@
     ]],
     [4,"How to Train Your Model", [
     {
-        "topic-title":"Data Loaders and Augmentation - Coming Soon...",
-        "notebook-link":"#"
+        "topic-title":"Data Loaders and Augmentation",
+        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/4-1.ipynb"
     },
     {
         "topic-title":"Loss Function - Coming Soon...",
