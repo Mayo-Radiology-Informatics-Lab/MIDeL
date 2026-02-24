@@ -2,25 +2,29 @@
     [1,"Theories of Machine Learning", [
     {
         "topic-title":"Introduction to Machine Learning",
-        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/1A.ipynb"
+        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/1-1.ipynb"
     },
     {
         "topic-title":"Machine Learning Tasks",
-        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/2A.ipynb"
+        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/1-2.ipynb"
     },
     {
-        "topic-title":"Ethics in Medical AI.",
-        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/1-C.ipynb"
+        "topic-title":"Academic Approach to Machine Learning for Medical Imaging - Coming Soon...",
+        "notebook-link":"#"
+    },
+    {
+        "topic-title":"Ethics in Medical AI",
+        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/1-4.ipynb"
     }
     ]],
     [2,"First Generation of Machine Learning", [
     {
         "topic-title":"Fundementals of Programming",
-        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/4A.ipynb"
+        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/2-1.ipynb"
     },
     {
         "topic-title":"Fundamental elements of Networks",
-        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/8A.ipynb"
+        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/2-2.ipynb"
     },
     {
         "topic-title":"Simple Regression",
@@ -28,41 +32,49 @@
     },
     {
         "topic-title":"Simple Classification",
-        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/Simple_classification.ipynb"
+        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/2-4.ipynb"
     },
     {
-        "topic-title":"Simple Segmentation - Coming Soon...",
+        "topic-title":"Simple Segmentation",
+        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/2-5.ipynb"
+    },
+    {
+        "topic-title":"GANs - Coming Soon...",
         "notebook-link":"#"
     },
     {
-        "topic-title":"Simple Generative AI - Coming Soon...",
+        "topic-title":"Diffusion Models - Coming Soon...",
         "notebook-link":"#"
     },
     {
         "topic-title":"Networks with memory",
-        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/12B.ipynb"
+        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/2-8.ipynb"
     }
     ]],
     [3,"Handling Medical Images", [
     {
         "topic-title":"Medical Imaging Modalities",
-        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/3A.ipynb"
+        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/3-1.ipynb"
     },
     {
         "topic-title":"Medical Imaging Standards",
-        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/3B.ipynb"
+        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/3-2.ipynb"
     },
     {
         "topic-title":"Image Processing Toolbox",
-        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/7A.ipynb"
+        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/3-3.ipynb"
     },
     {
         "topic-title":"Medical Imaging Toolbox",
-        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/5A.ipynb"
+        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/3-4.ipynb"
     },
     {
         "topic-title":"Image Manipulation",
-        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/6A.ipynb"
+        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/3-5.ipynb"
+    },
+    {
+        "topic-title":"Image Manipulation_2 - Coming Soon...",
+        "notebook-link":"#"
     }
     ]],
     [4,"How to Train Your Model", [
@@ -87,7 +99,7 @@
 
     {
         "topic-title":"Section 1",
-        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/8B.ipynb"
+        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/5-2.ipynb"
     },
     {
         "topic-title":"Section 2 - Coming Soon...",
@@ -143,7 +155,7 @@
     },
     {
         "topic-title":"RNN, LSTM",
-        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/12B.ipynb"
+        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/2-8.ipynb"
     },
     {
         "topic-title":"Coming Soon...",
@@ -189,7 +201,7 @@
     },
     {
         "topic-title":"Semantic Segmentation: Medical Image Segmentation with PyTorch and MONAI",
-        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/15B.ipynb"
+        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/2-5.ipynb"
     },
     {
         "topic-title":"Deep Learning for Medical Image Generation",
@@ -197,7 +209,7 @@
     },
     {
         "topic-title":"Diffusion Models for Image Generation",
-        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/15_3B.ipynb"
+        "notebook-link":"https://github.com/Mayo-Radiology-Informatics-Lab/MIDeL/blob/main/chapters/3-7.ipynb"
     }
     ]],
     [13,"Uncertainty Quantification", [
