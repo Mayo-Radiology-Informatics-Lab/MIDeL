@@ -23,7 +23,7 @@ import ssl
 import urllib3
 import getpass
 import json
-from urllib.parse import urljoin, urlparse
+from urllib.parse import urljoin, urlparse, urlsplit, urlunsplit, parse_qsl, urlencode
 from pathlib import Path
 from datetime import datetime
 import logging
@@ -89,8 +89,58 @@ def clean_doi(doi):
     # Ensure DOI starts with 10.
     if not doi.startswith('10.'):
         logger.warning(f"DOI doesn't start with '10.': {doi}")
-    
+
     return doi
+
+# Query parameters that indicate a temporary/pre-signed credential embedded in a
+# URL. Resolved PDF links from many publishers (AWS S3, Silverchair, etc.) carry
+# these short-lived tokens. They must NEVER be persisted to publications.json or
+# committed to the repo, as they are scannable secrets. See SECURITY notes below.
+_CREDENTIAL_QUERY_KEYS = {
+    'token', 'accesstoken', 'access_token', 'auth', 'authtoken', 'auth_token',
+    'apikey', 'api_key', 'key', 'sig', 'signature',
+    'x-amz-security-token', 'x-amz-signature', 'x-amz-credential',
+    'x-amz-date', 'x-amz-expires', 'x-amz-algorithm', 'x-amz-signedheaders',
+    'expires', 'hash', 'sid', 'tid', 'verify',
+}
+
+def url_has_embedded_credential(url):
+    """Return True if the URL carries a temporary/pre-signed credential."""
+    if not url:
+        return False
+    try:
+        query = urlsplit(url).query
+    except Exception:
+        return False
+    return any(k.lower() in _CREDENTIAL_QUERY_KEYS for k, _ in parse_qsl(query))
+
+def sanitize_url_for_storage(url):
+    """
+    Strip embedded credentials (pre-signed tokens, signatures, API keys) from a
+    URL before it is stored or committed. Query parameters listed in
+    _CREDENTIAL_QUERY_KEYS are removed; everything else is preserved.
+
+    Args:
+        url (str): URL that may contain credential query parameters
+
+    Returns:
+        str: URL safe to persist, or '' if it cannot be parsed
+    """
+    if not url:
+        return ''
+    try:
+        parts = urlsplit(url)
+        safe_params = [
+            (k, v) for k, v in parse_qsl(parts.query, keep_blank_values=True)
+            if k.lower() not in _CREDENTIAL_QUERY_KEYS
+        ]
+        return urlunsplit((
+            parts.scheme, parts.netloc, parts.path,
+            urlencode(safe_params), parts.fragment,
+        ))
+    except Exception as e:
+        logger.warning(f"Could not sanitize URL, dropping it: {str(e)}")
+        return ''
 
 def resolve_doi_to_pdf_url(doi):
     """
@@ -480,11 +530,30 @@ def add_publication_to_json(publications_data, year, first_author, title, doi, p
             }
             publications_data.append(year_group)
         
+        # Determine the URL to persist. NEVER store the resolved PDF URL directly:
+        # for many publishers it is a temporary pre-signed link with an embedded
+        # credential (token/signature) that would be committed to the public repo
+        # and flagged as an exposed secret. Prefer the stable DOI link, which is
+        # permanent and credential-free. Fall back to a sanitized resolved URL only
+        # if it happens to carry no credential.
+        clean_doi_id = clean_doi(doi) if doi else ''
+        if clean_doi_id and clean_doi_id.startswith('10.'):
+            stored_url = f"https://doi.org/{clean_doi_id}"
+        elif pdf_url and not url_has_embedded_credential(pdf_url):
+            stored_url = sanitize_url_for_storage(pdf_url)
+        else:
+            if pdf_url and url_has_embedded_credential(pdf_url):
+                logger.warning(
+                    f"Resolved URL for '{title}' contains an embedded credential; "
+                    "not storing it. Add a DOI to get a stable link."
+                )
+            stored_url = ''
+
         # Create publication entry
         publication = {
             'id': pub_id,
             'title': title,
-            'url': pdf_url if pdf_url else '',  # Leave empty if no URL resolved
+            'url': stored_url,  # Stable DOI link, or empty — never a pre-signed URL
             'type': 'journal',
             'status': 'published'
         }
